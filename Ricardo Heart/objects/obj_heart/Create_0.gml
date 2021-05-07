@@ -1,39 +1,32 @@
 /// @description Init
-var tick = function() {
+self.heart_rythm = timeline_add()
+
+var beat_on = function() {
 	self.image_index = 1
 }
-var tack = function() {
+var beat_off = function() {
 	self.image_index = 0
 }
-self.heart_beat_tl = timeline_add()
-add_3x_tick()
-add_1x_tick()
-add_1x_tack()
-add_1x_tick()
-add_1x_tack()
-add_1x_tick()
-add_1x_tick()
-add_1x_tack()
-add_1x_tick()
-add_1x_tack()
-add_9x_tack()
-
-timeline_max_moment()
-timeline_moment_add_script(self.heart_beat_tl, 0, tick)
-timeline_moment_add_script(self.heart_beat_tl, 24, tack)
-timeline_moment_add_script(self.heart_beat_tl, 26, tick)
-timeline_moment_add_script(self.heart_beat_tl, 34, tack)
-timeline_moment_add_script(self.heart_beat_tl, 42, tick)
-timeline_moment_add_script(self.heart_beat_tl, 50, tack)
-timeline_moment_add_script(self.heart_beat_tl, 58, tick)
-timeline_moment_add_script(self.heart_beat_tl, 64, tack)
-timeline_moment_add_script(self.heart_beat_tl, 66, tick)
-timeline_moment_add_script(self.heart_beat_tl, 74, tack)
-timeline_moment_add_script(self.heart_beat_tl, 82, tick)
-timeline_moment_add_script(self.heart_beat_tl, 90, tack)
-timeline_moment_add_script(self.heart_beat_tl, 98, tick)
-timeline_moment_add_script(self.heart_beat_tl, 154, tack)
+var terminator = function() {
+}
+var beat_duration = 16
+timeline_moment_add_script(self.heart_rythm, 0, beat_on)
+timeline_moment_add_script(self.heart_rythm, 3*beat_duration, beat_off)
+timeline_moment_add_script(self.heart_rythm, timeline_max_moment(self.heart_rythm) + 2, beat_on)
+timeline_moment_add_script(self.heart_rythm, timeline_max_moment(self.heart_rythm) + 8, beat_off)
+timeline_moment_add_script(self.heart_rythm, 42, beat_on)
+timeline_moment_add_script(self.heart_rythm, 50, beat_off)
+timeline_moment_add_script(self.heart_rythm, 58, beat_on)
+timeline_moment_add_script(self.heart_rythm, 64, beat_off)
+timeline_moment_add_script(self.heart_rythm, 66, beat_on)
+timeline_moment_add_script(self.heart_rythm, 74, beat_off)
+timeline_moment_add_script(self.heart_rythm, 82, beat_on)
+timeline_moment_add_script(self.heart_rythm, 90, beat_off)
+timeline_moment_add_script(self.heart_rythm, 98, beat_on)
+timeline_moment_add_script(self.heart_rythm, 160, beat_off)
+timeline_moment_add_script(self.heart_rythm, 220, terminator)
 //xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-self.timeline_index = self.heart_beat_tl
+self.timeline_index = self.heart_rythm
 self.timeline_position = 0
-self.timeline_running = false
+self.timeline_running = true
+self.timeline_loop = true
