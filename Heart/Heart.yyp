@@ -1,6 +1,8 @@
 {
   "resources": [
     {"id":{"name":"obj_heart","path":"objects/obj_heart/obj_heart.yy",},"order":0,},
+    {"id":{"name":"rythm_to_timeline","path":"scripts/rythm_to_timeline/rythm_to_timeline.yy",},"order":0,},
+    {"id":{"name":"snd_beat","path":"sounds/snd_beat/snd_beat.yy",},"order":0,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
