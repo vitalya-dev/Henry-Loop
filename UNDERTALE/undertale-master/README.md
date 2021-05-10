@@ -1,2 +1,0 @@
-# undertale
-Undertale src code
