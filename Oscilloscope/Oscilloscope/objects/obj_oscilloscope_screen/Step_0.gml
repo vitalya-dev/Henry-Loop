@@ -1,7 +1,7 @@
 switch (state) {
   case "ON":
     if (array_length(data) > 12000) {
-      array_delete(data, 0, 6000);
+      array_delete(data, 5999, 6000);
     }
     break;
   case "OFF":
