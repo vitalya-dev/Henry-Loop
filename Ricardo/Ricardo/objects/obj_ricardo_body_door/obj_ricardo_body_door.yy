@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_heart",
-    "path": "sprites/spr_heart/spr_heart.yy",
+    "name": "spr_ricardo_body_door",
+    "path": "sprites/spr_ricardo_body_door/spr_ricardo_body_door.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_heart",
+  "name": "obj_ricardo_body_door",
   "tags": [],
   "resourceType": "GMObject",
 }
