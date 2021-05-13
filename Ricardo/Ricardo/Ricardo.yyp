@@ -1,14 +1,15 @@
 {
   "resources": [
     {"id":{"name":"obj_ricardo_body_door","path":"objects/obj_ricardo_body_door/obj_ricardo_body_door.yy",},"order":1,},
-    {"id":{"name":"spr_ricardo_head","path":"sprites/spr_ricardo_head/spr_ricardo_head.yy",},"order":5,},
+    {"id":{"name":"spr_ricardo_head","path":"sprites/spr_ricardo_head/spr_ricardo_head.yy",},"order":4,},
     {"id":{"name":"child_instance_create","path":"scripts/child_instance_create/child_instance_create.yy",},"order":0,},
     {"id":{"name":"obj_ricardo","path":"objects/obj_ricardo/obj_ricardo.yy",},"order":0,},
     {"id":{"name":"child_instance_create_depth","path":"scripts/child_instance_create_depth/child_instance_create_depth.yy",},"order":2,},
-    {"id":{"name":"spr_ricardo_right_hand","path":"sprites/spr_ricardo_right_hand/spr_ricardo_right_hand.yy",},"order":8,},
-    {"id":{"name":"spr_ricardo_left_hand","path":"sprites/spr_ricardo_left_hand/spr_ricardo_left_hand.yy",},"order":6,},
+    {"id":{"name":"spr_ricardo_right_hand","path":"sprites/spr_ricardo_right_hand/spr_ricardo_right_hand.yy",},"order":7,},
+    {"id":{"name":"spr_ricardo_left_hand","path":"sprites/spr_ricardo_left_hand/spr_ricardo_left_hand.yy",},"order":5,},
+    {"id":{"name":"obj_ricardo_eye","path":"objects/obj_ricardo_eye/obj_ricardo_eye.yy",},"order":7,},
     {"id":{"name":"rythm_to_timeline","path":"scripts/rythm_to_timeline/rythm_to_timeline.yy",},"order":1,},
-    {"id":{"name":"spr_ricardo_legs","path":"sprites/spr_ricardo_legs/spr_ricardo_legs.yy",},"order":7,},
+    {"id":{"name":"spr_ricardo_legs","path":"sprites/spr_ricardo_legs/spr_ricardo_legs.yy",},"order":6,},
     {"id":{"name":"obj_ricardo_head","path":"objects/obj_ricardo_head/obj_ricardo_head.yy",},"order":5,},
     {"id":{"name":"spr_ricardo_body_door","path":"sprites/spr_ricardo_body_door/spr_ricardo_body_door.yy",},"order":1,},
     {"id":{"name":"spr_ricardo_heart","path":"sprites/spr_ricardo_heart/spr_ricardo_heart.yy",},"order":2,},
@@ -19,6 +20,7 @@
     {"id":{"name":"snd_beat","path":"sounds/snd_beat/snd_beat.yy",},"order":0,},
     {"id":{"name":"obj_ricardo_body","path":"objects/obj_ricardo_body/obj_ricardo_body.yy",},"order":4,},
     {"id":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},"order":0,},
+    {"id":{"name":"spr_recardo_eye","path":"sprites/spr_recardo_eye/spr_recardo_eye.yy",},"order":8,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
