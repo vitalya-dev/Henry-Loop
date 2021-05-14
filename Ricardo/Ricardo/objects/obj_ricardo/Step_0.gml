@@ -7,18 +7,40 @@ switch (body_door.state) {
     break;
 }
 
+
 switch (state) {
+  case "INIT":
+    if (light.state != "OFF") {
+      light.state = "OFF";
+    }
+    if (body_door.state == "OPEN") {
+      state = "ERROR";
+      error_code = 3;
+    } else {
+      state = "READY";
+    }
+    break;
   case "READY":
-    eye.light = c_green;
-    eye.flickering_rythm = noone;
+    if (light.state != "SOLID") {
+      light.colour = c_green;
+      light.state = "SOLID";
+    }
+    if (body_door.state == "OPEN")
+      state = "INIT";
     break;
   case "ERROR":
-    eye.light = c_yellow;
+    if (light.state != "FLICKERING") {
+      light.colour = c_yellow;
+      light.state = "FLICKERING";
+      if (error_code == 5)
+	      light.flickering_rythm = ".-.-.-.-.-";
+      if (error_code == 3)
+        light.flickering_rythm = ".-.-.-";
+    }
     switch (error_code) {
-      case 5:
-        if (eye.flickering_rythm == noone) {
-          eye.flickering_rythm = ".-.-.-.-.-";
-        }
+      case 3:
+        if (body_door.state == "CLOSE")
+          state = "INIT";
         break;
     }
     break;

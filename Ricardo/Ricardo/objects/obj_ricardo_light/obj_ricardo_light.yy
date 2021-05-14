@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_recardo_eye",
-    "path": "sprites/spr_recardo_eye/spr_recardo_eye.yy",
+    "name": "spr_recardo_light",
+    "path": "sprites/spr_recardo_light/spr_recardo_light.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,6 +23,8 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo_eye",
+  "name": "obj_ricardo_light",
   "tags": [],
   "resourceType": "GMObject",
 }
