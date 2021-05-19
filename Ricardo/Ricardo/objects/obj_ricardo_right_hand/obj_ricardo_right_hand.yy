@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_acceptor",
-    "path": "sprites/spr_acceptor/spr_acceptor.yy",
+    "name": "spr_ricardo_right_hand",
+    "path": "sprites/spr_ricardo_right_hand/spr_ricardo_right_hand.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,11 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":10,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -32,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_acceptor",
+  "name": "obj_ricardo_right_hand",
   "tags": [],
   "resourceType": "GMObject",
 }
