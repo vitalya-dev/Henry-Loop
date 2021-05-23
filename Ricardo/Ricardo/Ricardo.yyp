@@ -7,7 +7,6 @@
     {"id":{"name":"spr_leverage_up","path":"sprites/spr_leverage_up/spr_leverage_up.yy",},"order":9,},
     {"id":{"name":"obj_leverage","path":"objects/obj_leverage/obj_leverage.yy",},"order":10,},
     {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},"order":12,},
-    {"id":{"name":"child_instance_create","path":"scripts/child_instance_create/child_instance_create.yy",},"order":0,},
     {"id":{"name":"obj_ricardo","path":"objects/obj_ricardo/obj_ricardo.yy",},"order":0,},
     {"id":{"name":"child_instance_create_depth","path":"scripts/child_instance_create_depth/child_instance_create_depth.yy",},"order":2,},
     {"id":{"name":"spr_precord_end","path":"sprites/spr_precord_end/spr_precord_end.yy",},"order":15,},

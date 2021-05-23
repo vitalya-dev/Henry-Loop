@@ -1,5 +1,5 @@
-mouse_over_row = floor((mouse_y - y) / 15);
-mouse_over_col = floor((mouse_x - x) /  16);
+mouse_over_row = floor((mouse_y - y) / (15 * image_yscale));
+mouse_over_col = floor((mouse_x - x) /  (16 * image_xscale));
 
 
 switch (state) {

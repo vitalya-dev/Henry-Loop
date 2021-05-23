@@ -22,8 +22,11 @@ switch (acceptor.state) {
   case "OPEN":
     if (acceptor.card_clicked) {
       var editor = instance_create_layer(window_get_width() / 2, window_get_height() / 2, "Editors", obj_punchcard_editor);
-      editor.x -= editor.sprite_width / 2;
+      editor.image_xscale = image_xscale / 2;
+      editor.image_yscale = image_yscale / 2;
+      editor.x -= editor.sprite_width / 2 - 18 * editor.image_xscale;
       editor.y -= editor.sprite_height / 2;
+      instance_deactivate_layer("Instances");
     }
     break;
   case "CLOSE":
