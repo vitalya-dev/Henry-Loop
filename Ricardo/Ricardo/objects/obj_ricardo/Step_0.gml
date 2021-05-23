@@ -18,6 +18,18 @@ switch (leverage.state) {
     break;
 }
 
+switch (acceptor.state) {
+  case "OPEN":
+    if (acceptor.card_clicked) {
+      var editor = instance_create_layer(window_get_width() / 2, window_get_height() / 2, "Editors", obj_punchcard_editor);
+      editor.x -= editor.sprite_width / 2;
+      editor.y -= editor.sprite_height / 2;
+    }
+    break;
+  case "CLOSE":
+    break;
+}
+
 switch (state) {
   case "INIT":
     if (light.state != "OFF") {

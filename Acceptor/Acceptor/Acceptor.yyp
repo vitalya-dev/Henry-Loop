@@ -1,6 +1,6 @@
 {
   "resources": [
-    {"id":{"name":"spr_deck","path":"sprites/spr_deck/spr_deck.yy",},"order":1,},
+    {"id":{"name":"spr_card","path":"sprites/spr_card/spr_card.yy",},"order":1,},
     {"id":{"name":"obj_acceptor","path":"objects/obj_acceptor/obj_acceptor.yy",},"order":0,},
     {"id":{"name":"spr_acceptor","path":"sprites/spr_acceptor/spr_acceptor.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
