@@ -1,4 +1,5 @@
 audio_emmiter = audio_emitter_create();
+audio_emitter_gain(audio_emmiter, 0.1);
 
 var dot = function() {
 	self.image_index = 1;

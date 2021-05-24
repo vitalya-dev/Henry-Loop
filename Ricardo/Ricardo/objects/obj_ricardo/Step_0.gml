@@ -21,12 +21,10 @@ switch (leverage.state) {
 switch (acceptor.state) {
   case "OPEN":
     if (acceptor.card_clicked) {
-      var editor = instance_create_layer(window_get_width() / 2, window_get_height() / 2, "Editors", obj_punchcard_editor);
-      editor.image_xscale = image_xscale / 2;
-      editor.image_yscale = image_yscale / 2;
-      editor.x -= editor.sprite_width / 2 - 18 * editor.image_xscale;
-      editor.y -= editor.sprite_height / 2;
-      instance_deactivate_layer("Instances");
+      global.punchcard = self.punchcard;
+      global.punchcard_editor_xscale = image_xscale / 2;
+      global.punchcard_editor_yscale = image_yscale / 2;
+      room_goto(rm_punchcard_editor);
     }
     break;
   case "CLOSE":

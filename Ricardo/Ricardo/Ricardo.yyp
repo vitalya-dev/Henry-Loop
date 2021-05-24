@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"rm_punchcard_editor","path":"rooms/rm_punchcard_editor/rm_punchcard_editor.yy",},"order":1,},
     {"id":{"name":"obj_acceptor","path":"objects/obj_acceptor/obj_acceptor.yy",},"order":11,},
     {"id":{"name":"obj_ricardo_body_door","path":"objects/obj_ricardo_body_door/obj_ricardo_body_door.yy",},"order":1,},
     {"id":{"name":"spr_ricardo_head","path":"sprites/spr_ricardo_head/spr_ricardo_head.yy",},"order":4,},
@@ -34,7 +35,7 @@
     {"id":{"name":"obj_ricardo_body","path":"objects/obj_ricardo_body/obj_ricardo_body.yy",},"order":4,},
     {"id":{"name":"obj_par_environment","path":"objects/obj_par_environment/obj_par_environment.yy",},"order":0,},
     {"id":{"name":"spr_recardo_light","path":"sprites/spr_recardo_light/spr_recardo_light.yy",},"order":8,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -50,7 +51,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_main","path":"rooms/rm_main/rm_main.yy",},},
+    {"roomId":{"name":"rm_punchcard_editor","path":"rooms/rm_punchcard_editor/rm_punchcard_editor.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
