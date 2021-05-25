@@ -33,17 +33,21 @@ switch (acceptor.state) {
 
 switch (state) {
   case "INIT":
-    if (light.state != "OFF") {
-      light.state = "OFF";
-    }
+    light.colour = c_yellow;
+    light.state = "SOLID";
     if (acceptor.state == "OPEN") {
+      obj_phonograph.state = "IDLE";
       state = "ERROR";
+      error_code = 5;
+    }
+    else if (obj_phonograph.state == "IDLE") {
+      obj_phonograph.punchcard = self.punchcard;
+      obj_phonograph.state = "PLAY";
+    }
+    else if (obj_phonograph.state == "FINISH") {
+      obj_phonograph.state = "IDLE"
+      self.state = "ERROR";
       error_code = 7;
-    } else if (body_door.state == "OPEN") {
-      state = "ERROR";
-      error_code = 3;
-    } else {
-      state = "READY";
     }
     break;
   case "READY":
@@ -51,29 +55,25 @@ switch (state) {
       light.colour = c_green;
       light.state = "SOLID";
     }
-    if (body_door.state == "OPEN")
-      state = "INIT";
     break;
   case "ERROR":
     if (light.state != "FLICKERING") {
       light.colour = c_yellow;
       light.state = "FLICKERING";
-      if (error_code == 5)
-	      light.flickering_rythm = ".-.-.-.-.-";
-      else if (error_code == 3)
-        light.flickering_rythm = ".-.-.-";
-      else if (error_code == 7)
-        light.flickering_rythm = ".-.-.-.-.-.-.-";
     }
     switch (error_code) {
-      case 3:
-        if (body_door.state == "CLOSE")
+      case 5:
+        light.flickering_rythm = ".-.-.-.-.-";
+        if (acceptor.state == "CLOSE") {
           state = "INIT";
+        }
         break;
       case 7:
-        if (acceptor.state == "CLOSE")
+        light.flickering_rythm = ".-.-.-.-.-.-.-";
+        if (acceptor.state == "OPEN") {
           state = "INIT";
+        }
         break;
     }
     break;
- }
+}
