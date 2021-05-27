@@ -1,7 +1,12 @@
 {
   "resources": [
+    {"id":{"name":"E","path":"sprites/E/E.yy",},"order":2,},
+    {"id":{"name":"D","path":"sprites/D/D.yy",},"order":3,},
     {"id":{"name":"spr_gcounter","path":"sprites/spr_gcounter/spr_gcounter.yy",},"order":0,},
+    {"id":{"name":"C","path":"sprites/C/C.yy",},"order":4,},
+    {"id":{"name":"A","path":"sprites/A/A.yy",},"order":6,},
     {"id":{"name":"spr_gcounter_wheel","path":"sprites/spr_gcounter_wheel/spr_gcounter_wheel.yy",},"order":1,},
+    {"id":{"name":"B","path":"sprites/B/B.yy",},"order":5,},
     {"id":{"name":"obj_wheel","path":"objects/obj_wheel/obj_wheel.yy",},"order":1,},
     {"id":{"name":"child_instance_create_depth","path":"scripts/child_instance_create_depth/child_instance_create_depth.yy",},"order":0,},
     {"id":{"name":"obj_gcounter","path":"objects/obj_gcounter/obj_gcounter.yy",},"order":0,},
