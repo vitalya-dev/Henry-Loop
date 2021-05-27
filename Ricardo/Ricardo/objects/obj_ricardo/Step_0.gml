@@ -7,7 +7,7 @@ switch (body_door.state) {
     instance_deactivate_object(heart);
     instance_deactivate_object(leverage);
     break;
-}
+ }
 
 switch (leverage.state) {
   case "UP":
@@ -16,7 +16,7 @@ switch (leverage.state) {
   case "DOWN":
     acceptor.state = "OPEN";
     break;
-}
+ }
 
 switch (acceptor.state) {
   case "OPEN":
@@ -29,7 +29,7 @@ switch (acceptor.state) {
     break;
   case "CLOSE":
     break;
-}
+ }
 
 switch (state) {
   case "INIT":
@@ -45,15 +45,22 @@ switch (state) {
       obj_phonograph.state = "PLAY";
     }
     else if (obj_phonograph.state == "FINISH") {
-      obj_phonograph.state = "IDLE"
-      self.state = "ERROR";
-      error_code = 7;
+      obj_phonograph.state = "IDLE";
+      if (array_2d_hash(self.punchcard, 5, 21) == punchcard_correct_hash) {
+        self.state = "READY";
+      } else {
+        self.state = "ERROR";
+        error_code = 7;
+      }
     }
     break;
   case "READY":
-    if (light.state != "SOLID") {
+    if (light.colour != c_green or light.state != "SOLID") {
       light.colour = c_green;
       light.state = "SOLID";
+    }
+    if (acceptor.state == "OPEN") {
+      state = "INIT";
     }
     break;
   case "ERROR":
@@ -77,3 +84,5 @@ switch (state) {
     }
     break;
 }
+
+

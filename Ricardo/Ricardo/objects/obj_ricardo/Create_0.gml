@@ -12,6 +12,7 @@ state = "INIT";
 error_code = 0;
 
 punchcard = [];
+punchcard_correct_hash = 540569633100;
 for (var i = 0; i < 5; i++) {
   for (var j = 0; j < 21; j++) {
       punchcard[i, j] = "_";
