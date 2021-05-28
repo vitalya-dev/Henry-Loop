@@ -1,15 +1,18 @@
 {
   "resources": [
-    {"id":{"name":"E","path":"sprites/E/E.yy",},"order":2,},
-    {"id":{"name":"D","path":"sprites/D/D.yy",},"order":3,},
+    {"id":{"name":"spr_e","path":"sprites/spr_e/spr_e.yy",},"order":2,},
+    {"id":{"name":"obj_speaker","path":"objects/obj_speaker/obj_speaker.yy",},"order":2,},
+    {"id":{"name":"spr_d","path":"sprites/spr_d/spr_d.yy",},"order":3,},
     {"id":{"name":"spr_gcounter","path":"sprites/spr_gcounter/spr_gcounter.yy",},"order":0,},
-    {"id":{"name":"C","path":"sprites/C/C.yy",},"order":4,},
-    {"id":{"name":"A","path":"sprites/A/A.yy",},"order":6,},
+    {"id":{"name":"spr_speaker","path":"sprites/spr_speaker/spr_speaker.yy",},"order":8,},
+    {"id":{"name":"spr_c","path":"sprites/spr_c/spr_c.yy",},"order":4,},
+    {"id":{"name":"spr_a","path":"sprites/spr_a/spr_a.yy",},"order":6,},
     {"id":{"name":"spr_gcounter_wheel","path":"sprites/spr_gcounter_wheel/spr_gcounter_wheel.yy",},"order":1,},
-    {"id":{"name":"B","path":"sprites/B/B.yy",},"order":5,},
+    {"id":{"name":"spr_b","path":"sprites/spr_b/spr_b.yy",},"order":5,},
     {"id":{"name":"obj_wheel","path":"objects/obj_wheel/obj_wheel.yy",},"order":1,},
     {"id":{"name":"child_instance_create_depth","path":"scripts/child_instance_create_depth/child_instance_create_depth.yy",},"order":0,},
     {"id":{"name":"obj_gcounter","path":"objects/obj_gcounter/obj_gcounter.yy",},"order":0,},
+    {"id":{"name":"snd_beep","path":"sounds/snd_beep/snd_beep.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
