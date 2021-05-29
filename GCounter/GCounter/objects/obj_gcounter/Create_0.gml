@@ -10,3 +10,5 @@ wheel.on_wheel_up = function() {
 wheel.on_wheel_down = function() {
   current_note_index = current_note_index > 0 ? (current_note_index - 1) : array_length(notes_names) - 1
 }
+
+state = "UNTUNED";

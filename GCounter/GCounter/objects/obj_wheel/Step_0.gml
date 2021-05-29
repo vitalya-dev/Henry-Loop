@@ -4,21 +4,21 @@ switch (state) {
       state = "PRESSED";
       mouse_last_pos = mouse_y; 
     }
-
     break;
   case "PRESSED":
     var diff = mouse_last_pos - mouse_y;
-    if (abs(diff) > 15) {
-      image_angle += diff;
+    if (diff > 15) {
+      image_angle += 15;
+      on_wheel_up();
       mouse_last_pos = mouse_y;
-      if (diff > 0) 
-        on_wheel_up();
-      else {
-        on_wheel_down();
-      }
+    }
+    if (diff < -15) {
+      image_angle -= 15;
+      on_wheel_down();
+      mouse_last_pos = mouse_y;
     }
     if (mouse_check_button_released(mb_left)) {
       state = "IDLE";
     }
     break;
- }
+}

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gcounter_wheel",
-    "path": "sprites/spr_gcounter_wheel/spr_gcounter_wheel.yy",
+    "name": "spr_wheel",
+    "path": "sprites/spr_wheel/spr_wheel.yy",
   },
   "solid": false,
   "visible": true,
