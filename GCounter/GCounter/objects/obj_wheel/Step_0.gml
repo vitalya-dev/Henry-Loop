@@ -7,13 +7,13 @@ switch (state) {
     break;
   case "PRESSED":
     var diff = mouse_last_pos - mouse_y;
-    if (diff > 15) {
-      image_angle += 15;
+    if (diff > 5) {
+      image_angle += 5;
       on_wheel_up();
       mouse_last_pos = mouse_y;
     }
-    if (diff < -15) {
-      image_angle -= 15;
+    if (diff < -5) {
+      image_angle -= 5;
       on_wheel_down();
       mouse_last_pos = mouse_y;
     }
