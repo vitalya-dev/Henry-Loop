@@ -15,6 +15,7 @@
     {"id":{"name":"spr_c","path":"sprites/spr_c/spr_c.yy",},"order":4,},
     {"id":{"name":"spr_12","path":"sprites/spr_12/spr_12.yy",},"order":21,},
     {"id":{"name":"spr_4","path":"sprites/spr_4/spr_4.yy",},"order":29,},
+    {"id":{"name":"snd_noise","path":"sounds/snd_noise/snd_noise.yy",},"order":1,},
     {"id":{"name":"spr_a","path":"sprites/spr_a/spr_a.yy",},"order":6,},
     {"id":{"name":"spr_wheel","path":"sprites/spr_wheel/spr_wheel.yy",},"order":10,},
     {"id":{"name":"spr_15","path":"sprites/spr_15/spr_15.yy",},"order":18,},
