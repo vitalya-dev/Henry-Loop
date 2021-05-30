@@ -11,3 +11,4 @@ if (x_move != 0 || y_move != 0) {
 } else {
   sprite_index = spr_twardowski_idle;
 }
+
