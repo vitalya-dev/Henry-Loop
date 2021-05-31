@@ -2,9 +2,11 @@
   "resources": [
     {"id":{"name":"spr_twardowski_walk_strip2","path":"sprites/spr_twardowski_walk_strip2/spr_twardowski_walk_strip2.yy",},"order":0,},
     {"id":{"name":"spr_wall_collision_mask","path":"sprites/spr_wall_collision_mask/spr_wall_collision_mask.yy",},"order":4,},
+    {"id":{"name":"spr_suitcase","path":"sprites/spr_suitcase/spr_suitcase.yy",},"order":7,},
     {"id":{"name":"obj_hdoor","path":"objects/obj_hdoor/obj_hdoor.yy",},"order":2,},
     {"id":{"name":"obj_twardowski","path":"objects/obj_twardowski/obj_twardowski.yy",},"order":0,},
     {"id":{"name":"spr_twardowski_idle","path":"sprites/spr_twardowski_idle/spr_twardowski_idle.yy",},"order":1,},
+    {"id":{"name":"obj_suitcase","path":"objects/obj_suitcase/obj_suitcase.yy",},"order":4,},
     {"id":{"name":"spr_floors","path":"sprites/spr_floors/spr_floors.yy",},"order":2,},
     {"id":{"name":"obj_vdoor","path":"objects/obj_vdoor/obj_vdoor.yy",},"order":3,},
     {"id":{"name":"image_angle_left","path":"scripts/image_angle_left/image_angle_left.yy",},"order":0,},

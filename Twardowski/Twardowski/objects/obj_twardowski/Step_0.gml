@@ -12,3 +12,7 @@ if (x_move != 0 || y_move != 0) {
   sprite_index = spr_twardowski_idle;
 }
 
+suitcase.image_angle = image_angle;
+suitcase.x = x + image_angle_left().x * 8; 
+suitcase.y = y + image_angle_left().y * 8; 
+
