@@ -4,7 +4,7 @@ var y_move = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 if (x_move != 0 || y_move != 0) {
   sprite_index = spr_twardowski_walk_strip2;
   image_angle = point_direction(0, 0, x_move, y_move);
-  if (place_empty(x, y)) {
+  if (place_empty(x, y, obj_solid)) {
     x += x_move * spd;
     y += y_move * spd;
   }

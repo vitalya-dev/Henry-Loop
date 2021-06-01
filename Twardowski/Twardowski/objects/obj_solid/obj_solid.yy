@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_hdoor",
-    "path": "sprites/spr_hdoor/spr_hdoor.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_hdoor",
+  "name": "obj_solid",
   "tags": [],
   "resourceType": "GMObject",
 }
