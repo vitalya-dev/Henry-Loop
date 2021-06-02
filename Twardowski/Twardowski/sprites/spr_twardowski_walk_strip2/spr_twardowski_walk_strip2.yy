@@ -97,8 +97,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Twardowski",
+    "path": "folders/Sprites/Twardowski.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_twardowski_walk_strip2",

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Suitcase",
+    "path": "folders/Sprites/Suitcase.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_suitcase_document_3",
