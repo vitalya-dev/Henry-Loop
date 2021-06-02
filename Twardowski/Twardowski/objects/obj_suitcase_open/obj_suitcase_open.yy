@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_suitcase_whole",
-    "path": "sprites/spr_suitcase_whole/spr_suitcase_whole.yy",
+    "name": "spr_suitcase_open",
+    "path": "sprites/spr_suitcase_open/spr_suitcase_open.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_suitcase_window",
+  "name": "obj_suitcase_open",
   "tags": [],
   "resourceType": "GMObject",
 }
