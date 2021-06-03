@@ -1,13 +1,12 @@
 state = "OFF"
 
-screen = child_instance_create(3, 4, obj_oscilloscope_screen);
-on_btn = child_instance_create(77, 39, obj_oscilloscope_btn_on);
-pause_btn = child_instance_create(64, 25, obj_oscilloscope_btn_pause);
-left_btn = child_instance_create(64, 15, obj_oscilloscope_btn_left);
-right_btn = child_instance_create(76, 15, obj_oscilloscope_btn_right);
-plus_btn = child_instance_create(64, 4, obj_oscilloscope_btn_plus);
-minus_btn = child_instance_create(76, 4, obj_oscilloscope_btn_minus);
-
+screen = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_screen);
+on_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_on);
+pause_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_pause);
+left_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_left);
+right_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_right);
+plus_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_plus);
+minus_btn = instance_create_depth(-1, -1, depth - 1, obj_oscilloscope_btn_minus);
 
 plus_btn.on_click = function() {
   screen.scale += 0.1;

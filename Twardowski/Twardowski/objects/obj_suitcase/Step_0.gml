@@ -7,7 +7,7 @@ switch (state) {
     break;
   case "HOVER":
     if (mouse_check_button_pressed(mb_left) and !instance_exists(related_window)) {
-      related_window = instance_create_layer(x, y, "Windows", obj_window);
+      related_window = instance_create_layer(x, y, "Windows", obj_window_1);
 			related_window.content = obj_suitcase_open;
     }
     if (!position_meeting(mouse_x, mouse_y, self)) {

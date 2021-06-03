@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_window_1",
+    "path": "sprites/spr_window_1/spr_window_1.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
