@@ -1,4 +1,6 @@
+depth = -100 * instance_number(obj_window);
 state = "NORMAL";
+
 close_btn = instance_create_depth(x, y, depth - 1, obj_window_close_btn);
 close_btn.on_click = function() {
   instance_destroy();

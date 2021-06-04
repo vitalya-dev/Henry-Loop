@@ -1,3 +1,3 @@
 gcounter_hover = false;
 oscilloscope_hover = false;
-related_window = noone;
+oscilloscope_window = noone;

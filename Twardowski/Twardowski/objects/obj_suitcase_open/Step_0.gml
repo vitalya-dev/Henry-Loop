@@ -22,7 +22,7 @@ if (point_in_rectangle(mouse_x, mouse_y, oscilloscope_x1, oscilloscope_y1, oscil
   oscilloscope_hover = false;
 }
 
-if (oscilloscope_hover && mouse_check_button_pressed(mb_left)) {
-  related_window = instance_create_layer(x + 20, y + 20, "Windows", obj_window_2);
-  related_window.content = obj_oscilloscope;
+if (oscilloscope_hover && mouse_check_button_pressed(mb_left) && !instance_exists(oscilloscope_window)) {
+  oscilloscope_window = instance_create_layer(x + 20, y + 20, "Windows", obj_window_2);
+  oscilloscope_window.content = obj_oscilloscope;
 }

@@ -14,4 +14,4 @@ switch (state) {
     }
     image_index = 1;
     break;
- }
+}

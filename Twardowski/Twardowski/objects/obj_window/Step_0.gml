@@ -23,4 +23,5 @@ close_btn.y = bbox_top + 1;
 if (content != noone) {
   content.x = self.x;
   content.y = self.y;
+  content.depth = depth - 1;
 }
