@@ -26,3 +26,8 @@ if (oscilloscope_hover && mouse_check_button_pressed(mb_left) && !instance_exist
   oscilloscope_window = instance_create_layer(x + 20, y + 20, "Windows", obj_window_2);
   oscilloscope_window.content = obj_oscilloscope;
 }
+
+if (gcounter_hover && mouse_check_button_pressed(mb_left) && !instance_exists(gcounter_window)) {
+  gcounter_window = instance_create_layer(x + 20, y + 20, "Windows", obj_window_1);
+  gcounter_window.content = obj_gcounter;
+}
