@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_oscilloscope_btn_pause",
-    "path": "sprites/spr_oscilloscope_btn_pause/spr_oscilloscope_btn_pause.yy",
+    "name": "spr_gcounter_btn_on",
+    "path": "sprites/spr_gcounter_btn_on/spr_gcounter_btn_on.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Oscilloscope",
-    "path": "folders/Objects/Oscilloscope.yy",
+    "name": "GCounter",
+    "path": "folders/Objects/GCounter.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_oscilloscope_btn_pause",
+  "name": "obj_gcounter_btn_on",
   "tags": [],
   "resourceType": "GMObject",
 }

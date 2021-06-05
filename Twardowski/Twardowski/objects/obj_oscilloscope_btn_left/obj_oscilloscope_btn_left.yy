@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_oscilloscope_btn_parent",
-    "path": "objects/obj_oscilloscope_btn_parent/obj_oscilloscope_btn_parent.yy",
+    "name": "obj_btn",
+    "path": "objects/obj_btn/obj_btn.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

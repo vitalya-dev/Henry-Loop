@@ -9,7 +9,7 @@ notes_duration_sprites = [spr_1, spr_2, spr_3, spr_4, spr_5, spr_6,
 current_note_name_index = 0;
 current_note_duration_index = 0;
 
-wheel = instance_create_depth(x + 15, y + 33, depth - 1, obj_wheel);
+wheel = instance_create_depth(x + 15, y + 33, depth - 1, obj_gcounter_wheel);
 wheel.on_wheel_up = function() {
   current_note_duration_index += 1;
   if (current_note_duration_index >= array_length(notes_duration)) {
