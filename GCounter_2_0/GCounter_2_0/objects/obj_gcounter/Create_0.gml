@@ -1,3 +1,5 @@
+noise = noone;
+
 notes_names = ["A", "B", "C", "D", "E"];
 notes_sprites = [spr_a, spr_b, spr_c, spr_d, spr_e];
 notes_duration = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11",
