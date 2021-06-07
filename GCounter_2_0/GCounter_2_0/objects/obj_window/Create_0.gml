@@ -1,11 +1,11 @@
-var min_depth = -100;
-for (var i = 0; i < instance_number(obj_window); i++) {
-  var window = instance_find(obj_window, i);
-  if (window.depth < min_depth) {
-    min_depth = window.depth;
-  }
-};
-depth = min_depth - 100;
+top_window = find_top_window();
+if (top_window) {
+	depth = top_window.depth - 100;
+} else {
+  depth = -100;
+}
+
+active = false;
 
 state = "NORMAL";
 

@@ -1,6 +1,7 @@
+
 switch (state) {
   case "NORMAL":
-    if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
+    if (active and position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
       mouse_last_pos_x = mouse_x;
       mouse_last_pos_y = mouse_y;
       state = "DRAG";
@@ -16,3 +17,4 @@ switch (state) {
     }
     break;
 }
+show_debug_message(state);
