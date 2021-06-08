@@ -1,3 +1,4 @@
+
 switch (state) {
   case "ON":
     draw_self();
@@ -12,7 +13,7 @@ switch (state) {
         break;
       } 
       draw_line_width_color(origin_x - x1, origin_y + y1, origin_x - x2, origin_y + y2, 2, c_green, c_green);
-    }
+		}
     break;
   case "OFF":
     draw_self();

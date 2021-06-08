@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_simple_window",
-    "path": "sprites/spr_simple_window/spr_simple_window.yy",
+    "name": "spr_oscilloscope_btn_right",
+    "path": "sprites/spr_oscilloscope_btn_right/spr_oscilloscope_btn_right.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_window",
-    "path": "objects/obj_window/obj_window.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -23,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GCounter",
-    "path": "folders/Objects/GCounter.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gcounter_window",
+  "name": "obj_oscilloscope_btn_right",
   "tags": [],
   "resourceType": "GMObject",
 }

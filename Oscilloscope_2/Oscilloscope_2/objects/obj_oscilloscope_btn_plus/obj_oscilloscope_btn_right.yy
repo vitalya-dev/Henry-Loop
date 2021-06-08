@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_simple_window",
-    "path": "sprites/spr_simple_window/spr_simple_window.yy",
+    "name": "spr_oscilloscope_btn_right",
+    "path": "sprites/spr_oscilloscope_btn_right/spr_oscilloscope_btn_right.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_window",
-    "path": "objects/obj_window/obj_window.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Window",
-    "path": "folders/Objects/Window.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_window_1",
+  "name": "obj_oscilloscope_btn_right",
   "tags": [],
   "resourceType": "GMObject",
 }

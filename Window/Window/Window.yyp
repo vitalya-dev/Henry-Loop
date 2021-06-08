@@ -11,7 +11,6 @@
     {"id":{"name":"spr_gcounter_wheel_1","path":"sprites/spr_gcounter_wheel_1/spr_gcounter_wheel_1.yy",},"order":31,},
     {"id":{"name":"spr_20","path":"sprites/spr_20/spr_20.yy",},"order":21,},
     {"id":{"name":"spr_21","path":"sprites/spr_21/spr_21.yy",},"order":22,},
-    {"id":{"name":"obj_gcounter_window","path":"objects/obj_gcounter_window/obj_gcounter_window.yy",},"order":3,},
     {"id":{"name":"snd_noise","path":"sounds/snd_noise/snd_noise.yy",},"order":0,},
     {"id":{"name":"spr_11","path":"sprites/spr_11/spr_11.yy",},"order":12,},
     {"id":{"name":"spr_12","path":"sprites/spr_12/spr_12.yy",},"order":13,},
