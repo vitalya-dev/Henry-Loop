@@ -19,3 +19,6 @@ screen.y = y - 21;
 
 btn_on.x = x + 31;
 btn_on.y = y + 14;
+
+btn_pause.x = x + 18;
+btn_pause.y = y;
