@@ -1,11 +1,8 @@
 {
   "resources": [
-    {"id":{"name":"_123_0003______3","path":"sprites/_123_0003______3/_123_0003______3.yy",},"order":6,},
-    {"id":{"name":"spr_suitcase_oscilloscope","path":"sprites/spr_suitcase_oscilloscope/spr_suitcase_oscilloscope.yy",},"order":2,},
-    {"id":{"name":"_123_0002______3______","path":"sprites/_123_0002______3______/_123_0002______3______.yy",},"order":5,},
-    {"id":{"name":"spr_suitcase_gcounter","path":"sprites/spr_suitcase_gcounter/spr_suitcase_gcounter.yy",},"order":1,},
-    {"id":{"name":"_123_0000_c834b59f_556c_4e45_a8f8_83deac3cac0c","path":"sprites/_123_0000_c834b59f_556c_4e45_a8f8_83deac3cac0c/_123_0000_c834b59f_556c_4e45_a8f8_83deac3cac0c.yy",},"order":3,},
+    {"id":{"name":"spr_oscilloscope","path":"sprites/spr_oscilloscope/spr_oscilloscope.yy",},"order":2,},
     {"id":{"name":"spr_suitcase_open","path":"sprites/spr_suitcase_open/spr_suitcase_open.yy",},"order":0,},
+    {"id":{"name":"spr_gcounter","path":"sprites/spr_gcounter/spr_gcounter.yy",},"order":1,},
     {"id":{"name":"obj_suitcase_open","path":"objects/obj_suitcase_open/obj_suitcase_open.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
