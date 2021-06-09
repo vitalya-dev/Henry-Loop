@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"spr_oscilloscope_btn_on","path":"sprites/spr_oscilloscope_btn_on/spr_oscilloscope_btn_on.yy",},"order":2,},
     {"id":{"name":"obj_oscilloscope","path":"objects/obj_oscilloscope/obj_oscilloscope.yy",},"order":0,},
+    {"id":{"name":"obj_simple_window","path":"objects/obj_simple_window/obj_simple_window.yy",},"order":1,},
+    {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},"order":0,},
     {"id":{"name":"obj_oscilloscope_btn_minus","path":"objects/obj_oscilloscope_btn_minus/obj_oscilloscope_btn_minus.yy",},"order":7,},
     {"id":{"name":"obj_oscilloscope_btn_left","path":"objects/obj_oscilloscope_btn_left/obj_oscilloscope_btn_left.yy",},"order":6,},
     {"id":{"name":"spr_oscilloscope_btn_plus","path":"sprites/spr_oscilloscope_btn_plus/spr_oscilloscope_btn_plus.yy",},"order":5,},
@@ -11,6 +13,7 @@
     {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"order":3,},
     {"id":{"name":"spr_oscilloscope_btn_pause","path":"sprites/spr_oscilloscope_btn_pause/spr_oscilloscope_btn_pause.yy",},"order":7,},
     {"id":{"name":"obj_oscilloscope_btn_pause","path":"objects/obj_oscilloscope_btn_pause/obj_oscilloscope_btn_pause.yy",},"order":8,},
+    {"id":{"name":"spr_simple_window","path":"sprites/spr_simple_window/spr_simple_window.yy",},"order":1,},
     {"id":{"name":"obj_oscilloscope_btn_plus","path":"objects/obj_oscilloscope_btn_plus/obj_oscilloscope_btn_plus.yy",},"order":9,},
     {"id":{"name":"obj_oscilloscope_btn_right","path":"objects/obj_oscilloscope_btn_right/obj_oscilloscope_btn_right.yy",},"order":10,},
     {"id":{"name":"spr_oscilloscope_screen","path":"sprites/spr_oscilloscope_screen/spr_oscilloscope_screen.yy",},"order":1,},
@@ -52,6 +55,8 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Window.yy","order":11,"resourceVersion":"1.0","name":"Window","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Window.yy","order":8,"resourceVersion":"1.0","name":"Window","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
