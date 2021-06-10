@@ -12,6 +12,9 @@ var oscilloscope_y2 = oscilloscope_y1 + sprite_get_height(spr_oscilloscope_suitc
 var suitcase_cover_x1 = x - sprite_xoffset;
 var suitcase_cover_y1 = y - sprite_yoffset;
 
+var suitcase_cover_x2 = suitcase_cover_x1 + sprite_get_width(spr_suitcase);
+var suitcase_cover_y2 = suitcase_cover_y1 + 24;
+
 
 switch (state) {
   case "CLOSE":
@@ -29,6 +32,9 @@ switch (state) {
       oscilloscope_hover = true;
     } else {
       oscilloscope_hover = false;
+    }
+    if (point_in_rectangle(mouse_x, mouse_y, suitcase_cover_x1, suitcase_cover_y1, suitcase_cover_x2, suitcase_cover_y2) and mouse_check_button_pressed(mb_left)) {
+      state = "CLOSE";
     }
     break;
 }
