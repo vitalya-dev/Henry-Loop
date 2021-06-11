@@ -33,6 +33,14 @@ switch (state) {
     } else {
       oscilloscope_hover = false;
     }
+    if (gcounter_hover && gcounter_window && mouse_check_button_pressed(mb_left) && gcounter_window.x + gcounter_window.y == 2 * 999999) {
+      gcounter_window.x = x;
+      gcounter_window.y = y;
+    }
+    if (oscilloscope_hover && oscilloscope_window && mouse_check_button_pressed(mb_left) && oscilloscope_window.x + oscilloscope_window.y == 2 * 999999) {
+      oscilloscope_window.x = x;
+      oscilloscope_window.y = y;
+    }
     if (point_in_rectangle(mouse_x, mouse_y, suitcase_cover_x1, suitcase_cover_y1, suitcase_cover_x2, suitcase_cover_y2) and mouse_check_button_pressed(mb_left)) {
       state = "CLOSE";
     }
