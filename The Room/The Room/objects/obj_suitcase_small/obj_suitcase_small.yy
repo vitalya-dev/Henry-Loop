@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_suitcase",
-    "path": "sprites/spr_suitcase/spr_suitcase.yy",
+    "name": "spr_suitcase_small",
+    "path": "sprites/spr_suitcase_small/spr_suitcase_small.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Suitcase.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_suitcase",
+  "name": "obj_suitcase_small",
   "tags": [],
   "resourceType": "GMObject",
 }
