@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GCounter",
+    "path": "folders/Sprites/GCounter.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gcounter_wheel",
