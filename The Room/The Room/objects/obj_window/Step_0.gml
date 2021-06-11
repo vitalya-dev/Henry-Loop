@@ -15,7 +15,7 @@ switch (state) {
       y += y_move;
       mouse_last_pos_x = mouse_x;
       mouse_last_pos_y = mouse_y;
-    }
+    } 
     if (mouse_check_button_released(mb_left)) {
       state = "NORMAL";
     }
