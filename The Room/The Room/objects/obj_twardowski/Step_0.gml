@@ -16,3 +16,7 @@ suitcase.image_angle = image_angle;
 suitcase.x = x + image_angle_left().x * 8; 
 suitcase.y = y + image_angle_left().y * 8; 
 
+var half_camera_height = camera_get_view_height(view_camera[0]) / 2;
+var half_camera_width = camera_get_view_width(view_camera[0]) / 2;
+
+camera_set_view_pos(view_camera[0], x - half_camera_width, y - half_camera_height);
