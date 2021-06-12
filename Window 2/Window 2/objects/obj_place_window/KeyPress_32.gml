@@ -1,0 +1,1 @@
+scr_place_window();
