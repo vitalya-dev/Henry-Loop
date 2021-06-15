@@ -23,6 +23,6 @@ switch (state) {
 }
 
 if (content) {
-  content.x = x;
-  content.y = y;
+  content.x = x + sprite_width / 2;
+  content.y = y + sprite_height / 2;
 }
