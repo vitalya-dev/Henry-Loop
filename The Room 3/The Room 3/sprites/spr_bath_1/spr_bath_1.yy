@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 11,
+  "bbox_right": 47,
   "bbox_top": 0,
-  "bbox_bottom": 14,
+  "bbox_bottom": 22,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 12,
-  "height": 15,
+  "width": 48,
+  "height": 23,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"74c6b204-4cf3-4823-bd3c-1fcdd3eed91f","path":"sprites/spr_washstand/spr_washstand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"74c6b204-4cf3-4823-bd3c-1fcdd3eed91f","path":"sprites/spr_washstand/spr_washstand.yy",},"LayerId":{"name":"cafe9124-ce0f-4df6-85b5-8572dcf4aa61","path":"sprites/spr_washstand/spr_washstand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_washstand","path":"sprites/spr_washstand/spr_washstand.yy",},"resourceVersion":"1.0","name":"74c6b204-4cf3-4823-bd3c-1fcdd3eed91f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ed95d3f6-54e2-4f9c-9e66-85de56d322d7","path":"sprites/spr_bath_1/spr_bath_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ed95d3f6-54e2-4f9c-9e66-85de56d322d7","path":"sprites/spr_bath_1/spr_bath_1.yy",},"LayerId":{"name":"4bbac273-906c-41eb-bc44-d5d225c435fe","path":"sprites/spr_bath_1/spr_bath_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_bath_1","path":"sprites/spr_bath_1/spr_bath_1.yy",},"resourceVersion":"1.0","name":"ed95d3f6-54e2-4f9c-9e66-85de56d322d7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_washstand","path":"sprites/spr_washstand/spr_washstand.yy",},
+    "spriteId": {"name":"spr_bath_1","path":"sprites/spr_bath_1/spr_bath_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4a7a0085-b0b6-470c-a89e-f2e244cd2566","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"74c6b204-4cf3-4823-bd3c-1fcdd3eed91f","path":"sprites/spr_washstand/spr_washstand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c21fceec-b34c-4f0d-aba9-935c74753993","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ed95d3f6-54e2-4f9c-9e66-85de56d322d7","path":"sprites/spr_bath_1/spr_bath_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_washstand","path":"sprites/spr_washstand/spr_washstand.yy",},
+    "parent": {"name":"spr_bath_1","path":"sprites/spr_bath_1/spr_bath_1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_washstand",
+    "name": "spr_bath_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cafe9124-ce0f-4df6-85b5-8572dcf4aa61","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4bbac273-906c-41eb-bc44-d5d225c435fe","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_washstand",
+  "name": "spr_bath_1",
   "tags": [],
   "resourceType": "GMSprite",
 }
