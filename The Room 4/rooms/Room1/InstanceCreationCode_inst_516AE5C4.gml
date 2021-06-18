@@ -1,0 +1,1 @@
+window = inst_69915C0;

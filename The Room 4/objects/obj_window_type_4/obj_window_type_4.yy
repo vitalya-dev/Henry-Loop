@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_ricardo",
-    "path": "sprites/spr_ricardo/spr_ricardo.yy",
+    "name": "spr_window_type_4",
+    "path": "sprites/spr_window_type_4/spr_window_type_4.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Window",
+    "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo",
+  "name": "obj_window_type_4",
   "tags": [],
   "resourceType": "GMObject",
 }

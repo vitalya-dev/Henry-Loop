@@ -15,3 +15,8 @@ if (place_meeting(x, y, obj_vdoor)) {
     door.image_angle = 0;
   }
 }
+
+if (place_meeting(x, y, obj_ricardo)) {
+  var ricardo = instance_place(x, y, obj_ricardo);
+  obj_camera_manager.show_window(ricardo.window);
+}
