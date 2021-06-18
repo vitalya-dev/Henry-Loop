@@ -47,6 +47,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_twardowski","path":"objects/obj_twardowski/obj_twardowski.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":224.0,"resourceVersion":"1.0","name":"inst_1619D8B6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_suitcase_small","path":"objects/obj_suitcase_small/obj_suitcase_small.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":217.0,"resourceVersion":"1.0","name":"inst_59FE72A1","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ricardo","path":"objects/obj_ricardo/obj_ricardo.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":67.0,"y":117.0,"resourceVersion":"1.0","name":"inst_516AE5C4","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Actors","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall_collision_mask","path":"objects/obj_wall_collision_mask/obj_wall_collision_mask.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":20.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":true,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":32.0,"resourceVersion":"1.0","name":"inst_4B553BE3","tags":[],"resourceType":"GMRInstance",},
@@ -103,6 +104,7 @@
     {"name":"inst_219E6FBD","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_52B1C61E","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7AE8252","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_516AE5C4","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
