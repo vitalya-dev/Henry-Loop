@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_letter",
-    "path": "sprites/spr_letter/spr_letter.yy",
+    "name": "spr_cupboard_2",
+    "path": "sprites/spr_cupboard_2/spr_cupboard_2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Furniture",
+    "path": "folders/Objects/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_letter",
+  "name": "obj_cupboard_2",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,5 +1,3 @@
-//gcounter_hover = false;
-//oscilloscope_hover = false;
-//gcounter_window = noone;
-//oscilloscope_window = noone;
+letter_hover = true;
 state = "CLOSE";
+letter_window = noone;

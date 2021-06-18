@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_letter",
-    "path": "sprites/spr_letter/spr_letter.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -20,17 +17,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Furniture",
+    "path": "folders/Objects/Furniture.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_letter",
+  "name": "obj_chair_127282930",
   "tags": [],
   "resourceType": "GMObject",
 }
