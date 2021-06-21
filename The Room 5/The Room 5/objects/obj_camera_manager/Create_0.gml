@@ -33,8 +33,8 @@ follow_player = function() {
 
 show_window = function(window) {
   ds_stack_push(cameras_stack, current_camera_copy());
-  current_camera.w = window.sprite_width + 10;
-  current_camera.h = window.sprite_height + 10;
+  current_camera.w = window.sprite_width - 10;
+  current_camera.h = window.sprite_height - 10;
   current_camera.x = window.x - current_camera.w / 2;
   current_camera.y = window.y - current_camera.h / 2;
   current_camera.state = "SHOW_WINDOW";
