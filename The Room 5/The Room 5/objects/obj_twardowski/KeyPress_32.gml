@@ -16,7 +16,7 @@ if (place_meeting(x, y, obj_vdoor)) {
   }
 }
 
-if (place_meeting(x, y, obj_ricardo)) {
-  var ricardo = instance_place(x, y, obj_ricardo);
+if (place_meeting(x, y, obj_ricardo_top)) {
+  var ricardo = instance_place(x, y, obj_ricardo_top);
   obj_camera_manager.show_window(ricardo.window);
 }
