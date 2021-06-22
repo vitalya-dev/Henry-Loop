@@ -4,7 +4,7 @@ switch (current_camera.state) {
     var half_camera_width = camera_get_view_width(view_camera[0]) / 2;
     current_camera.x = obj_twardowski.x - half_camera_width;
     current_camera.y = obj_twardowski.y - half_camera_height;
-
+    state = "FOLLOW_PLAYER";
  };
  
 camera_set_view_size(view_camera[0], current_camera.w, current_camera.h);
