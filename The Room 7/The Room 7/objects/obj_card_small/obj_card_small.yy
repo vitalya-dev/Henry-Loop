@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_card",
-    "path": "sprites/spr_card/spr_card.yy",
+    "name": "spr_card_small",
+    "path": "sprites/spr_card_small/spr_card_small.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,9 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -32,7 +30,7 @@
     "path": "folders/Objects/Card.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_card",
+  "name": "obj_card_small",
   "tags": [],
   "resourceType": "GMObject",
 }

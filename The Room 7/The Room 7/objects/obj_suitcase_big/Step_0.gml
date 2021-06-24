@@ -24,7 +24,7 @@ switch (state) {
       letter_hover = true;
     } else {
       letter_hover = false;
-    }
+    } 
     if (letter_hover && mouse_check_button_pressed(mb_left)) {
       obj_camera_manager.show_window("letter");
     }

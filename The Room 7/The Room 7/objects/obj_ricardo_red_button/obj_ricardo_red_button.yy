@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_ricardo_front",
-    "path": "sprites/spr_ricardo_front/spr_ricardo_front.yy",
+    "name": "spr_ricardo_red_button",
+    "path": "sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_btn",
+    "path": "objects/obj_btn/obj_btn.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +31,7 @@
     "path": "folders/Objects/Ricardo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo_front",
+  "name": "obj_ricardo_red_button",
   "tags": [],
   "resourceType": "GMObject",
 }
