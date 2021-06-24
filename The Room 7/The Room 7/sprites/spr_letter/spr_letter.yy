@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Letter",
+    "path": "folders/Sprites/Letter.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_letter",

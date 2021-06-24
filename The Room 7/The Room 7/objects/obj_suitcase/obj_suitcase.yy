@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_suitcase_big",
-    "path": "sprites/spr_suitcase_big/spr_suitcase_big.yy",
+    "name": "spr_suitcase",
+    "path": "sprites/spr_suitcase/spr_suitcase.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
@@ -32,7 +31,7 @@
     "path": "folders/Objects/Suitcase.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_suitcase_big",
+  "name": "obj_suitcase",
   "tags": [],
   "resourceType": "GMObject",
 }

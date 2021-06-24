@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_letter",
-    "path": "sprites/spr_letter/spr_letter.yy",
+    "name": "spr_letter_small",
+    "path": "sprites/spr_letter_small/spr_letter_small.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects/Letter.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_letter",
+  "name": "obj_letter_small",
   "tags": [],
   "resourceType": "GMObject",
 }
