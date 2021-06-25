@@ -45,6 +45,7 @@
     {"id":{"name":"draw_rect_width","path":"scripts/draw_rect_width/draw_rect_width.yy",},"order":1,},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},"order":1,},
     {"id":{"name":"spr_bath_1","path":"sprites/spr_bath_1/spr_bath_1.yy",},"order":6,},
+    {"id":{"name":"fn_ricardo_head","path":"fonts/fn_ricardo_head/fn_ricardo_head.yy",},"order":0,},
     {"id":{"name":"spr_table_2","path":"sprites/spr_table_2/spr_table_2.yy",},"order":14,},
     {"id":{"name":"snd_noise","path":"sounds/snd_noise/snd_noise.yy",},"order":0,},
     {"id":{"name":"spr_cardrecord_small","path":"sprites/spr_cardrecord_small/spr_cardrecord_small.yy",},"order":3,},
