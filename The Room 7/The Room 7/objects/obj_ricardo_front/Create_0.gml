@@ -1,1 +1,2 @@
-state = "ERROR"; 
+state = "ERROR";
+progress = 0; 
