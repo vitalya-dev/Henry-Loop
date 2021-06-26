@@ -49,6 +49,7 @@
     {"id":{"name":"spr_table_2","path":"sprites/spr_table_2/spr_table_2.yy",},"order":14,},
     {"id":{"name":"snd_noise","path":"sounds/snd_noise/snd_noise.yy",},"order":0,},
     {"id":{"name":"spr_cardrecord_small","path":"sprites/spr_cardrecord_small/spr_cardrecord_small.yy",},"order":3,},
+    {"id":{"name":"_123_0001_951c8bf4_5ec8_4ee4_bc7f_190eda00eb3e______","path":"sprites/_123_0001_951c8bf4_5ec8_4ee4_bc7f_190eda00eb3e______/_123_0001_951c8bf4_5ec8_4ee4_bc7f_190eda00eb3e______.yy",},"order":15,},
     {"id":{"name":"obj_cupboard_1","path":"objects/obj_cupboard_1/obj_cupboard_1.yy",},"order":1,},
     {"id":{"name":"obj_letter_small","path":"objects/obj_letter_small/obj_letter_small.yy",},"order":1,},
     {"id":{"name":"spr_bed_1","path":"sprites/spr_bed_1/spr_bed_1.yy",},"order":9,},
