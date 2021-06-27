@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_vdoor",
-    "path": "sprites/spr_vdoor/spr_vdoor.yy",
+    "name": "spr_hdoor",
+    "path": "sprites/spr_hdoor/spr_hdoor.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_door",
-    "path": "objects/obj_door/obj_door.yy",
+    "name": "obj_hdoor",
+    "path": "objects/obj_hdoor/obj_hdoor.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_vdoor",
+  "name": "obj_entrance_door",
   "tags": [],
   "resourceType": "GMObject",
 }
