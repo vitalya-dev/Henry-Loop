@@ -1,1 +1,4 @@
 visible = false;
+talk = function() {
+  
+}
