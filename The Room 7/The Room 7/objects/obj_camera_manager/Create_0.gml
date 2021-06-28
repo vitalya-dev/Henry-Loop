@@ -12,7 +12,7 @@ current_camera_copy = function() {
   return {
     x : current_camera.x,
     y : current_camera.y,
-    w : current_camera.w,
+    w : current_camera.w, 
     h : current_camera.h,
     state : current_camera.state
   };
@@ -45,7 +45,11 @@ show_window = function(window_name) {
   }
 };
 
-show_dialog = function(dialog_name) {
-  show_window(dialog_name);
+show_dialog = function(dialog) {
+  ds_stack_push(cameras_stack, current_camera_copy());
+  current_camera.w = dialog.sprite_width;
+  current_camera.h = dialog.sprite_height;
+  current_camera.x = dialog.x - current_camera.w / 2;
+  current_camera.y = dialog.y - current_camera.h / 2;
   current_camera.state = "SHOW_DIALOG";
 }

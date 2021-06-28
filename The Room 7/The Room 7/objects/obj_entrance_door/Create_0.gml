@@ -3,7 +3,7 @@ state = "CLOSE";
 open = function(by) {
   switch (state) {
     case "CLOSE":
-      obj_camera_manager.show_dialog("knock knock");
+      obj_camera_manager.show_dialog(obj_knock_knock_dialog);
       state = "WAIT";
       break;
     case "WAIT":
