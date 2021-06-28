@@ -44,3 +44,8 @@ show_window = function(window_name) {
     }
   }
 };
+
+show_dialog = function(dialog_name) {
+  show_window(dialog_name);
+  current_camera.state = "SHOW_DIALOG";
+}
