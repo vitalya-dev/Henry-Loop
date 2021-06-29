@@ -8,7 +8,7 @@ open = function(by) {
     case "OPEN_1":
       _open_helper(by);
       state = "OPEN_0";
-      alarm[1] = 3 * fps;
+      alarm[1] = fps;
       break;
   }  
 }

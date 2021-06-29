@@ -33,7 +33,7 @@
     "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo_fixing_dialog",
+  "name": "obj_to_soon_dialog",
   "tags": [],
   "resourceType": "GMObject",
 }

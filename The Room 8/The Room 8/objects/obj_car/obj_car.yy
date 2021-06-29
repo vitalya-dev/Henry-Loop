@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_dialogue",
-    "path": "sprites/spr_dialogue/spr_dialogue.yy",
+    "name": "spr_car",
+    "path": "sprites/spr_car/spr_car.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_dialogue",
-    "path": "objects/obj_dialogue/obj_dialogue.yy",
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Dialogs",
-    "path": "folders/Objects/Dialogs.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo_fixing_dialog",
+  "name": "obj_car",
   "tags": [],
   "resourceType": "GMObject",
 }

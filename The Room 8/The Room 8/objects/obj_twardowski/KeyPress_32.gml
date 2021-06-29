@@ -15,3 +15,8 @@ if (place_meeting(x, y, obj_gertrude)) {
   var gertrude = instance_place(x, y, obj_gertrude);
   gertrude.talk();
 }
+
+if (place_meeting(x, y, obj_car)) {
+  var car = instance_place(x, y, obj_car);
+  car.interact();
+}

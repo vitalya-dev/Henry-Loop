@@ -33,7 +33,7 @@
     "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_ricardo_fixing_dialog",
+  "name": "obj_whereis_gertrude_dialog_1",
   "tags": [],
   "resourceType": "GMObject",
 }
