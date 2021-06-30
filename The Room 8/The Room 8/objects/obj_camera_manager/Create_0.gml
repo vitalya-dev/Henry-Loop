@@ -1,3 +1,4 @@
+twardowski = instance_find(obj_twardowski, 0);
 cameras_stack = ds_stack_create();
 
 current_camera = {
@@ -19,8 +20,9 @@ current_camera_copy = function() {
 }
 
 camera_pop = function() {
-  // invoke later
-  alarm[1] = 1;
+  if (ds_stack_size(cameras_stack) > 1) {
+    current_camera = ds_stack_pop(cameras_stack);
+  }
 }
 
 follow_player = function() {
@@ -52,4 +54,13 @@ show_dialog = function(dialog) {
   current_camera.x = dialog.x - current_camera.w / 2;
   current_camera.y = dialog.y - current_camera.h / 2;
   current_camera.state = "SHOW_DIALOG";
+}
+
+show_credits = function() {
+  ds_stack_push(cameras_stack, current_camera_copy());
+  current_camera.w = obj_credits.sprite_width;
+  current_camera.h = obj_credits.sprite_height;
+  current_camera.x = obj_credits.x - current_camera.w / 2;
+  current_camera.y = obj_credits.y - current_camera.h / 2;
+  current_camera.state = "SHOW_CREDITS";
 }

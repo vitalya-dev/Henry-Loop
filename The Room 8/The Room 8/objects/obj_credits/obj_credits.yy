@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_letter_small",
-    "path": "sprites/spr_letter_small/spr_letter_small.yy",
+    "name": "spr_creadits",
+    "path": "sprites/spr_creadits/spr_creadits.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Letter",
-    "path": "folders/Objects/Letter.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_letter_small",
+  "name": "obj_credits",
   "tags": [],
   "resourceType": "GMObject",
 }
