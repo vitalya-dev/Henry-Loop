@@ -72,3 +72,14 @@ show_menu = function() {
   current_camera.y = obj_menu.y - current_camera.h / 2;
   current_camera.state = "SHOW_MENU";
 }
+
+
+show_intro = function() {
+  ds_stack_push(cameras_stack, current_camera_copy());
+  current_camera.w = obj_intro.sprite_width - 10;
+  current_camera.h = obj_intro.sprite_height - 10;
+  current_camera.x = obj_intro.x - current_camera.w / 2;
+  current_camera.y = obj_intro.y - current_camera.h / 2;
+  current_camera.state = "SHOW_INTRO";
+  obj_intro.state = "START";
+}

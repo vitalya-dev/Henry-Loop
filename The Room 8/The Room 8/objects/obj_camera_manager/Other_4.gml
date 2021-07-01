@@ -1,1 +1,1 @@
-follow_player();
+show_intro();
