@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 13,
-  "bbox_top": 0,
-  "bbox_bottom": 12,
+  "bbox_top": 2,
+  "bbox_bottom": 10,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"54b9ca24-4cd4-4a8b-b884-9f2c5f3f89b3","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"54b9ca24-4cd4-4a8b-b884-9f2c5f3f89b3","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"LayerId":{"name":"805ad2ae-bd1a-4abe-9fca-92c03c49c952","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ricardo_red_button","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","name":"54b9ca24-4cd4-4a8b-b884-9f2c5f3f89b3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"eeaa4341-702f-41f3-822b-86cad6678417","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"eeaa4341-702f-41f3-822b-86cad6678417","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"LayerId":{"name":"805ad2ae-bd1a-4abe-9fca-92c03c49c952","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ricardo_red_button","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","name":"eeaa4341-702f-41f3-822b-86cad6678417","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_ricardo_red_button","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"169eb08b-50bb-4e7c-b740-7ad50b52bd92","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"54b9ca24-4cd4-4a8b-b884-9f2c5f3f89b3","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6f16874f-a516-4c2b-8659-ccb83ac4eb6a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"eeaa4341-702f-41f3-822b-86cad6678417","path":"sprites/spr_ricardo_red_button/spr_ricardo_red_button.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
