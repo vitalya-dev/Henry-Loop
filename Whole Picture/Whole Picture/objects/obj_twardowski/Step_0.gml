@@ -1,4 +1,5 @@
 if (obj_camera_manager.current_camera.state != "FOLLOW_PLAYER") {
+  sprite_index = spr_twardowski_idle;
   return;
 }
 
@@ -15,6 +16,8 @@ if (x_move != 0 || y_move != 0) {
 } else {
   sprite_index = spr_twardowski_idle;
 }
+
+
 
 obj_suitcase_small.image_angle = image_angle;
 obj_suitcase_small.x = x + image_angle_left().x * 8; 

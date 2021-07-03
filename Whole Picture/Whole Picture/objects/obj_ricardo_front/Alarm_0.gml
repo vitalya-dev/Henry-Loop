@@ -8,6 +8,7 @@ switch (state) {
       state = "ERROR"; 
     } else {
       state = "READY";
+      audio_play_sound(Startup, 10, false);
       alarm[1] = fps;
     }
     break;
