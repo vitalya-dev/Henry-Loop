@@ -22,6 +22,7 @@
     {"id":{"name":"spr_toilet_1","path":"sprites/spr_toilet_1/spr_toilet_1.yy",},"order":8,},
     {"id":{"name":"obj_gertrude_first_meet_dialog","path":"objects/obj_gertrude_first_meet_dialog/obj_gertrude_first_meet_dialog.yy",},"order":2,},
     {"id":{"name":"obj_to_soon_dialog","path":"objects/obj_to_soon_dialog/obj_to_soon_dialog.yy",},"order":6,},
+    {"id":{"name":"Door_open","path":"sounds/Door_open/Door_open.yy",},"order":5,},
     {"id":{"name":"obj_tree_1","path":"objects/obj_tree_1/obj_tree_1.yy",},"order":0,},
     {"id":{"name":"spr_cardrecord_start","path":"sprites/spr_cardrecord_start/spr_cardrecord_start.yy",},"order":4,},
     {"id":{"name":"spr_floors_entrance","path":"sprites/spr_floors_entrance/spr_floors_entrance.yy",},"order":1,},
