@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "Startup.mp3",
-  "duration": 2.020406,
+  "duration": 1.49397993,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
