@@ -8,6 +8,7 @@ interact = function() {
     case "GERTRUDE":
       instance_deactivate_object(obj_twardowski);
       instance_deactivate_object(obj_suitcase_small);
+      audio_stop_all();
       alarm[1] = fps;
       break;
   }
