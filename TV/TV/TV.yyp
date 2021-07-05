@@ -4,6 +4,7 @@
     {"id":{"name":"obj_tv","path":"objects/obj_tv/obj_tv.yy",},"order":0,},
     {"id":{"name":"spr_tv_tumbler","path":"sprites/spr_tv_tumbler/spr_tv_tumbler.yy",},"order":2,},
     {"id":{"name":"spr_tv","path":"sprites/spr_tv/spr_tv.yy",},"order":0,},
+    {"id":{"name":"fn_tv","path":"fonts/fn_tv/fn_tv.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
