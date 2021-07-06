@@ -9,7 +9,7 @@ var two_number_is_correct_and_in_outplace = string_char_at(code, 3) + string_cha
 var none_number_is_correct = string_char_at(get_two_wrong_numbers_1(), 2) + string_char_at(get_two_wrong_numbers_2(), 1) + string_char_at(get_two_wrong_numbers_2(), 2);
 
 
-switch (obj_tv_tumbler.state) {
+switch (state) {
   case "ON":
     draw_set_font(fn_tv);
     draw_set_color(c_black);

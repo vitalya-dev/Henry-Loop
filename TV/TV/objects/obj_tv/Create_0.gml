@@ -1,5 +1,20 @@
 code = "591";
 
+state = "NONE";
+
+set_code = function(new_code) {
+  code = new_code;
+  switch (state) {
+    case "NOISE":
+    case "ON":
+      state = "NOISE";
+      alarm[1] = fps;
+      break;
+    case "OFF":
+      break;
+  }
+}
+
 get_two_wrong_numbers_1 = function() {
     var first_number = "";
     var second_number = "";
