@@ -1,4 +1,4 @@
-state = "NORMAL"
+_state = "NORMAL"
 on_click = function() {
   //dumb function
 }
