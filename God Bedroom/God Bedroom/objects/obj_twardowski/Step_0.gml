@@ -16,10 +16,3 @@ if (x_move != 0 || y_move != 0) {
 } else {
   sprite_index = spr_twardowski_idle;
 }
-
-
-
-obj_suitcase_small.image_angle = image_angle;
-obj_suitcase_small.x = x + image_angle_left().x * 8; 
-obj_suitcase_small.y = y + image_angle_left().y * 8; 
-

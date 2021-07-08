@@ -8,16 +8,3 @@ if (place_meeting(x, y, obj_door)) {
   audio_play_sound(Door_open, 10, false);
 }
 
-if (place_meeting(x, y, obj_ricardo_top)) {
-  obj_camera_manager.show_window("ricardo");
-}
-
-if (place_meeting(x, y, obj_gertrude)) {
-  var gertrude = instance_place(x, y, obj_gertrude);
-  gertrude.talk();
-}
-
-if (place_meeting(x, y, obj_car)) {
-  var car = instance_place(x, y, obj_car);
-  car.interact();
-}

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_hdoor_1",
-    "path": "sprites/spr_hdoor_1/spr_hdoor_1.yy",
+    "name": "spr_hdoor_2",
+    "path": "sprites/spr_hdoor_2/spr_hdoor_2.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,9 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
