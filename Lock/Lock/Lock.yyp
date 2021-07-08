@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":2,},
-    {"id":{"name":"Untitled_1_0004_Untitled_1_0006_Layer_6_copy_2_copy_2","path":"sprites/Untitled_1_0004_Untitled_1_0006_Layer_6_copy_2_copy_2/Untitled_1_0004_Untitled_1_0006_Layer_6_copy_2_copy_2.yy",},"order":16,},
     {"id":{"name":"obj_tv_tumbler","path":"objects/obj_tv_tumbler/obj_tv_tumbler.yy",},"order":1,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":2,},
     {"id":{"name":"obj_lock","path":"objects/obj_lock/obj_lock.yy",},"order":4,},
