@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_elock",
-    "path": "sprites/spr_elock/spr_elock.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_dialogue",
+    "path": "objects/obj_dialogue/obj_dialogue.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,18 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ELock",
-    "path": "folders/Objects/ELock.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elock",
+  "name": "obj_door_closed_dialog",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_door_front_1",
-    "path": "sprites/spr_door_front_1/spr_door_front_1.yy",
+    "name": "spr_elock_button",
+    "path": "sprites/spr_elock_button/spr_elock_button.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_elock_button",
+    "path": "objects/obj_elock_button/obj_elock_button.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ELock",
+    "path": "folders/Objects/ELock.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_front",
+  "name": "obj_elock_button_2",
   "tags": [],
   "resourceType": "GMObject",
 }

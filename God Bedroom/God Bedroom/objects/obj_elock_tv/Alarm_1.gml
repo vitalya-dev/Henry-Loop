@@ -1,0 +1,1 @@
+state = obj_elock_tv_tumbler.state;  

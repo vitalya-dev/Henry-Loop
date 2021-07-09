@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Elock",
+    "path": "folders/Sprites/Elock.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_elock",

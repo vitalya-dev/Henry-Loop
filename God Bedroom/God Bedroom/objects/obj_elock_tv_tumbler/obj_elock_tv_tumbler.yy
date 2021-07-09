@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_elock",
-    "path": "sprites/spr_elock/spr_elock.yy",
+    "name": "spr_elock_tv_tumbler",
+    "path": "sprites/spr_elock_tv_tumbler/spr_elock_tv_tumbler.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,8 +23,6 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +31,7 @@
     "path": "folders/Objects/ELock.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elock",
+  "name": "obj_elock_tv_tumbler",
   "tags": [],
   "resourceType": "GMObject",
 }

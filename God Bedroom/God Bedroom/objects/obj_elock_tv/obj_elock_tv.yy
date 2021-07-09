@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_elock",
-    "path": "sprites/spr_elock/spr_elock.yy",
+    "name": "spr_elock_tv",
+    "path": "sprites/spr_elock_tv/spr_elock_tv.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,6 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -33,7 +34,7 @@
     "path": "folders/Objects/ELock.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elock",
+  "name": "obj_elock_tv",
   "tags": [],
   "resourceType": "GMObject",
 }

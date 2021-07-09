@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_door_front_1",
-    "path": "sprites/spr_door_front_1/spr_door_front_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -24,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "ELock",
+    "path": "folders/Objects/ELock.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_door_front",
+  "name": "Object43",
   "tags": [],
   "resourceType": "GMObject",
 }

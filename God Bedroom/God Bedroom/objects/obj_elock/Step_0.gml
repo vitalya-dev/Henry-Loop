@@ -1,6 +1,3 @@
-// Inherit the parent event
-event_inherited();
-
 switch (state) {
   case "LOCKED":
     image_index = 0;
