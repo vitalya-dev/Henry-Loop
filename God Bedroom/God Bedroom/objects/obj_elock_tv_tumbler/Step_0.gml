@@ -4,6 +4,7 @@ switch (state) {
     if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
       state = "OFF";
       on_click();
+      audio_play_sound(Tumbler, 10, false);
     }
     break;
   case "OFF":
@@ -11,6 +12,7 @@ switch (state) {
     if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
       state = "ON";
       on_click();
+      audio_play_sound(Tumbler, 10, false);
     }
     break;
 }
