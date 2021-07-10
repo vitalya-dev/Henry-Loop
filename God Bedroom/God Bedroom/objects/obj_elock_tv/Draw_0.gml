@@ -20,6 +20,13 @@ switch (state) {
     draw_text_ext(screen_x, screen_y + 45 * 2, two_number_is_correct_and_in_outplace + " - Два номера верны но не на месте", 15, 230);
     draw_text_ext(screen_x, screen_y + 45 * 3, none_number_is_correct + " - Нет верных номеров", 15, 230);
     break;
+  case "IDENTIFICATION":
+    draw_set_font(fn_tv);
+    draw_set_color(c_black);
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_center);
+    draw_text(x - 40, y, "Идентификация"); 
+    break;
   case "OFF":
     break;
 }

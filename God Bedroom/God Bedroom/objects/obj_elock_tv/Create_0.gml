@@ -2,6 +2,8 @@ code = "591";
 
 state = "NONE";
 
+access_granted = false;
+
 set_code = function(new_code) {
   code = new_code;
   switch (state) {
