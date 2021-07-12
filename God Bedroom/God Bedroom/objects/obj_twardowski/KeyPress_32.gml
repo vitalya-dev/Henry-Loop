@@ -2,6 +2,10 @@ if (obj_camera_manager.current_camera.state != "FOLLOW_PLAYER") {
   return;
 }
 
+if (not playable) {
+  return;
+}
+
 if (place_meeting(x, y, obj_door)) {
   var door = instance_place(x, y, obj_door);
   door.open(self);

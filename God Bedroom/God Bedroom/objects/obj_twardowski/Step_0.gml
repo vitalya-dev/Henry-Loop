@@ -3,6 +3,11 @@ if (obj_camera_manager.current_camera.state != "FOLLOW_PLAYER") {
   return;
 }
 
+if (not playable) {
+  sprite_index = spr_twardowski_idle;
+  return;
+}
+
 var x_move = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var y_move = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
