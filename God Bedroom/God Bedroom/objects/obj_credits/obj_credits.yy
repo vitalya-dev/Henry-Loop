@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_man_woman",
-    "path": "sprites/spr_man_woman/spr_man_woman.yy",
+    "name": "spr_credits",
+    "path": "sprites/spr_credits/spr_credits.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,9 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":3,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":4,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_man_woman",
+  "name": "obj_credits",
   "tags": [],
   "resourceType": "GMObject",
 }
