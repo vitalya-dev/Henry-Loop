@@ -4,6 +4,7 @@
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":7,},
     {"id":{"name":"obj_trash","path":"objects/obj_trash/obj_trash.yy",},"order":17,},
     {"id":{"name":"obj_toilet_1","path":"objects/obj_toilet_1/obj_toilet_1.yy",},"order":7,},
+    {"id":{"name":"_232323","path":"sprites/_232323/_232323.yy",},"order":0,},
     {"id":{"name":"spr_twardowski_walk_strip2","path":"sprites/spr_twardowski_walk_strip2/spr_twardowski_walk_strip2.yy",},"order":1,},
     {"id":{"name":"fn_dialog","path":"fonts/fn_dialog/fn_dialog.yy",},"order":1,},
     {"id":{"name":"obj_oven_1","path":"objects/obj_oven_1/obj_oven_1.yy",},"order":3,},
