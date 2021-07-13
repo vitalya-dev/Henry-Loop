@@ -5,7 +5,7 @@ obj_elock_door_handle.on_click = function() {
     case "LOCKED":
       if (get_input() == code) {
         state = "UNLOCKED";
-        obj_entrance_door_3.state = "UNLOCKED";
+        obj_entrance_door_3.state = "UNLOCKED_1";
         audio_play_sound(Success, 10, false);
       } else { 
 				code = string(irandom(9)) + string(irandom(9)) + string(irandom(9));
