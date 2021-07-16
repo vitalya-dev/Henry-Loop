@@ -1,20 +1,19 @@
 {
-  "name": "spr_twentyfour_big_circle",
-  "HTile": false,
-  "VTile": false,
-  "For3D": false,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "type": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
+  "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 245,
   "bbox_top": 0,
   "bbox_bottom": 245,
-  "origin": 4,
-  "bboxMode": 0,
-  "collisionKind": 1,
-  "type": 0,
-  "swfPrecision": 2.525,
+  "HTile": false,
+  "VTile": false,
+  "For3D": false,
   "width": 246,
   "height": 246,
   "textureGroupId": {
@@ -33,12 +32,6 @@
       ],"parent":{"name":"spr_twentyfour_big_circle","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},"resourceVersion":"1.0","name":"6004d7f0-0e78-49e4-a98f-66786f916cd2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ec9daa68-9939-4364-8655-9c26385cdece","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5ee15073-fbc5-4a48-96ff-6574cbf2e018","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"49725b94-3f1a-4110-9730-ff6e5d817b8b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6004d7f0-0e78-49e4-a98f-66786f916cd2","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
-    ],
     "spriteId": {"name":"spr_twentyfour_big_circle","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},
     "timeUnits": 1,
     "playback": 1,
@@ -49,6 +42,12 @@
     "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
+    "tracks": [
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"ec9daa68-9939-4364-8655-9c26385cdece","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5ee15073-fbc5-4a48-96ff-6574cbf2e018","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"49725b94-3f1a-4110-9730-ff6e5d817b8b","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6004d7f0-0e78-49e4-a98f-66786f916cd2","path":"sprites/spr_twentyfour_big_circle/spr_twentyfour_big_circle.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+    ],
     "visibleRange": null,
     "lockOrigin": false,
     "showBackdrop": true,
@@ -74,10 +73,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Twentyfour",
-    "path": "Twentyfour.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
+  "name": "spr_twentyfour_big_circle",
   "tags": [],
   "resourceType": "GMSprite",
 }
