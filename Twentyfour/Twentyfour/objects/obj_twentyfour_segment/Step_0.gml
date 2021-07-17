@@ -1,13 +1,12 @@
-var _inst = instance_place(x, y, obj_twentyfour_op);
+var op = instance_place(x, y, obj_twentyfour_op);
 
-if (_inst != noone) {
-  switch (_inst.state) {
+if (op != noone) {
+  switch (op.state) {
     case "DRAG":
       image_index = 1;
       break;
     case "NORMAL":
-      instance_destroy();
-      instance_destroy(_inst);
+      obj_twentyfour_big_circle.execute(op, id);
       break;
   }
 } else {
