@@ -5,3 +5,10 @@ if (op != noone) {
 } else {
   image_index = 0;   
 }
+
+
+if (image_index = 1 and op.state == "NORMAL") {
+  execute(op.name);
+  instance_deactivate_object(self);
+  instance_deactivate_object(op);
+}
