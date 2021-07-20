@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_twardowski_idle",
-    "path": "sprites/spr_twardowski_idle/spr_twardowski_idle.yy",
+    "name": "spr_twentyfour_segment_2",
+    "path": "sprites/spr_twentyfour_segment_2/spr_twentyfour_segment_2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_twentyfour_segment",
+    "path": "objects/obj_twentyfour_segment/obj_twentyfour_segment.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,19 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Twentyfour",
+    "path": "folders/Objects/Twentyfour.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twardowski",
+  "name": "obj_twentyfour_segment_2",
   "tags": [],
   "resourceType": "GMObject",
 }
