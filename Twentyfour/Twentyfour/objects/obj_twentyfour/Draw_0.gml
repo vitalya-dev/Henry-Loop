@@ -3,6 +3,8 @@ draw_self();
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
+draw_set_font(fn_twentyfour_big);
+
 if (instance_exists(obj_twentyfour_segment_1)) {
   draw_text(x - 0.6 * sprite_width, y - 0.6 * sprite_width,  numbers[0]);
 }

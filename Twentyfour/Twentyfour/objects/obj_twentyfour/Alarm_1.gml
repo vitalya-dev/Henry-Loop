@@ -1,3 +1,5 @@
+instance_activate_layer("Twentyfour");
+
 obj_twentyfour_op_add.x = obj_twentyfour_op_add.start_x;
 obj_twentyfour_op_add.y = obj_twentyfour_op_add.start_y;
 

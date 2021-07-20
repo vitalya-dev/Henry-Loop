@@ -8,7 +8,6 @@
     {"id":{"name":"obj_twentyfour_segment","path":"objects/obj_twentyfour_segment/obj_twentyfour_segment.yy",},"order":8,},
     {"id":{"name":"spr_twentyfour_segment_1","path":"sprites/spr_twentyfour_segment_1/spr_twentyfour_segment_1.yy",},"order":5,},
     {"id":{"name":"obj_twentyfour_segment_3","path":"objects/obj_twentyfour_segment_3/obj_twentyfour_segment_3.yy",},"order":5,},
-    {"id":{"name":"obj_twentyfour_controller","path":"objects/obj_twentyfour_controller/obj_twentyfour_controller.yy",},"order":0,},
     {"id":{"name":"spr_twentyfour_op_mul","path":"sprites/spr_twentyfour_op_mul/spr_twentyfour_op_mul.yy",},"order":3,},
     {"id":{"name":"obj_twentyfour_op_mul","path":"objects/obj_twentyfour_op_mul/obj_twentyfour_op_mul.yy",},"order":10,},
     {"id":{"name":"obj_twentyfour_segment_2","path":"objects/obj_twentyfour_segment_2/obj_twentyfour_segment_2.yy",},"order":4,},
