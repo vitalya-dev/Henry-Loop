@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_twentyfour_cross",
-    "path": "sprites/spr_twentyfour_cross/spr_twentyfour_cross.yy",
+    "name": "spr_hdoor",
+    "path": "sprites/spr_hdoor/spr_hdoor.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_hdoor",
+    "path": "objects/obj_hdoor/obj_hdoor.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Twentyfour",
-    "path": "folders/Objects/Twentyfour.yy",
+    "name": "Door",
+    "path": "folders/Objects/Door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twentyfour_cross",
+  "name": "obj_entrance_door_1",
   "tags": [],
   "resourceType": "GMObject",
 }

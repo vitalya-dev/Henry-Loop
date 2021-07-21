@@ -1,6 +1,6 @@
-numbers[0] = 4;
-numbers[1] = 7;
-numbers[2] = 2;
-numbers[3] = 8;
+numbers[0] = 0;
+numbers[1] = 0;
+numbers[2] = 0;
+numbers[3] = 0;
 
 number = 24;

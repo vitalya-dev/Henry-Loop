@@ -5,19 +5,19 @@ draw_set_valign(fa_middle);
 
 draw_set_font(fn_twentyfour_big);
 
-if (instance_exists(obj_twentyfour_segment_1)) {
+if (obj_twentyfour_segment_1.visible) {
   draw_text(x - 0.6 * sprite_width, y - 0.6 * sprite_width,  numbers[0]);
 }
 
-if (instance_exists(obj_twentyfour_segment_2)) {
+if (obj_twentyfour_segment_2.visible) {
   draw_text(x + 0.6 * sprite_width, y - 0.6 * sprite_width,  numbers[1]);
 }
 
-if (instance_exists(obj_twentyfour_segment_3)) {
+if (obj_twentyfour_segment_3.visible) {
   draw_text(x +  0.6 * sprite_width, y + 0.6 * sprite_width, numbers[2]);
 }
 
-if (instance_exists(obj_twentyfour_segment_4)) {
+if (obj_twentyfour_segment_4.visible) {
   draw_text(x - 0.6 * sprite_width, y + 0.6 * sprite_width,  numbers[3]);
 }
 

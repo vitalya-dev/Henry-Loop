@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_dialogue",
+    "path": "objects/obj_dialogue/obj_dialogue.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -26,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_window",
+  "name": "obj_knock_knock_dialog",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -7,8 +7,8 @@ if (op != noone) {
 }
 
 
-if (image_index = 1 and op.state == "NORMAL") {
+if (visible && image_index = 1 and op.state == "NORMAL") {
   execute(op.name);
-  instance_deactivate_object(self);
-  instance_deactivate_object(op);
+  self.visible = false;
+  op.visible = false;
 }

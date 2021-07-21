@@ -30,6 +30,9 @@ camera_pop = function() {
 }
 
 follow_player = function() {
+  if (current_camera.state == "TRANSITION") {
+    current_camera.state = next_state;
+  }
   ds_stack_push(cameras_stack, current_camera_copy());
   current_camera.w = 320;
   current_camera.h = 180;
@@ -39,6 +42,9 @@ follow_player = function() {
 }
 
 show_window = function(window) {
+  if (current_camera.state == "TRANSITION") {
+    current_camera.state = next_state;
+  }
   ds_stack_push(cameras_stack, current_camera_copy());
   current_camera.w = window.sprite_width - 10;
   current_camera.h = window.sprite_height - 10;
@@ -50,6 +56,9 @@ show_window = function(window) {
 };
 
 show_dialog = function(dialog) {
+  if (current_camera.state == "TRANSITION") {
+    current_camera.state = next_state;
+  }
   ds_stack_push(cameras_stack, current_camera_copy());
   current_camera.w = dialog.sprite_width;
   current_camera.h = dialog.sprite_height;
@@ -64,6 +73,9 @@ show_credits = function() {
 }
 
 show_menu = function() {
+  if (current_camera.state == "TRANSITION") {
+    current_camera.state = next_state;
+  }
   ds_stack_push(cameras_stack, current_camera_copy());
   current_camera.w = obj_menu.sprite_width - 10;
   current_camera.h = obj_menu.sprite_height - 10;
