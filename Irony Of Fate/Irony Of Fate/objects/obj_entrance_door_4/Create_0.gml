@@ -8,7 +8,7 @@ open = function(by) {
       obj_twentyfour.numbers[2] = 2;
       obj_twentyfour.numbers[3] = 8;
       obj_camera_manager.show_window(obj_twentyfour_window);
-      obj_camera_manager.show_tutorial();
+      obj_camera_manager.show_window(obj_tutorial_window);
       obj_camera_manager.show_dialog(obj_my_mind_is_flowing_dialog);
       state = "OPEN";
       break;

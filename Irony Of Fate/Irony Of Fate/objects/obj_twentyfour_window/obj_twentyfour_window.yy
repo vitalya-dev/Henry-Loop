@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Window",
+    "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_twentyfour_window",

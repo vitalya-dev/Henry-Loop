@@ -10,6 +10,14 @@ current_camera = {
   state : ""
 };
 
+next_camera = {
+  x : 0,
+  y : 0,
+  w : 0,
+  h : 0,
+  state : ""
+};
+
 current_camera_copy = function() {
   return {
     x : current_camera.x,
@@ -69,9 +77,6 @@ show_dialog = function(dialog) {
   alarm[1] = 1;
 }
 
-show_credits = function() {
-}
-
 show_menu = function() {
   if (current_camera.state == "TRANSITION") {
     current_camera.state = next_state;
@@ -87,20 +92,4 @@ show_menu = function() {
 }
 
 
-show_intro = function() {
-}
 
-
-show_tutorial = function() {
-  if (current_camera.state == "TRANSITION") {
-    current_camera.state = next_state;
-  }
-  ds_stack_push(cameras_stack, current_camera_copy());
-  current_camera.w = obj_tutorial.sprite_width - 10;
-  current_camera.h = obj_tutorial.sprite_height - 10;
-  current_camera.x = obj_tutorial.x - current_camera.w / 2;
-  current_camera.y = obj_tutorial.y - current_camera.h / 2;
-  current_camera.state = "TRANSITION";
-  next_state = "SHOW_TUTORIAL";
-  alarm[1] = 1;
-}

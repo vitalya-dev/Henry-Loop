@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tutorial",
-    "path": "sprites/spr_tutorial/spr_tutorial.yy",
+    "name": "spr_tutorial_window",
+    "path": "sprites/spr_tutorial_window/spr_tutorial_window.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,11 +26,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Window",
+    "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tutorial",
+  "name": "obj_tutorial_window",
   "tags": [],
   "resourceType": "GMObject",
 }
