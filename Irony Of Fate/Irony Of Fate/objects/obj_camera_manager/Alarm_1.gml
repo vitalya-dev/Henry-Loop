@@ -1,2 +1,1 @@
-current_camera.state = next_state;
-next_state = "";
+current_camera = next_camera_copy();
