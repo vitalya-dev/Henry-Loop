@@ -8,12 +8,17 @@ open = function(by) {
       obj_twentyfour.numbers[2] = 2;
       obj_twentyfour.numbers[3] = 8;
       obj_camera_manager.show_window(obj_twentyfour_window);
-       obj_camera_manager.show_window(obj_tutorial_2_window);
+      obj_camera_manager.show_window(obj_tutorial_2_window);
       obj_camera_manager.show_dialog(obj_my_mind_is_going_dialog);
-      state = "OPEN";
+      state = "OPEN_1";
       break;
-    case "OPEN":
+    case "OPEN_1":
       _open_helper(by);
+      obj_gertrude.visible = true;
+      alarm[1] = fps / 4;
+      state = "OPEN_2";
+      break;
+    case "OPEN_2":
       break;
   }  
 }
