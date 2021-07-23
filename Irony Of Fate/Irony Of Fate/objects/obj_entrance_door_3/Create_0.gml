@@ -15,10 +15,13 @@ open = function(by) {
     case "OPEN_1":
       _open_helper(by);
       obj_gertrude.visible = true;
+      obj_twardowski.playable = false;
       alarm[1] = fps / 4;
+      alarm[2] = fps;
       state = "OPEN_2";
       break;
     case "OPEN_2":
+      _open_helper(by);
       break;
   }  
 }

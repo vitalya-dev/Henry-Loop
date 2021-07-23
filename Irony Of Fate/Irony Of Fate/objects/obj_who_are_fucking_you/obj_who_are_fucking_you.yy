@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_hdoor_1",
-    "path": "sprites/spr_hdoor_1/spr_hdoor_1.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_hdoor",
-    "path": "objects/obj_hdoor/obj_hdoor.yy",
+    "name": "obj_dialogue",
+    "path": "objects/obj_dialogue/obj_dialogue.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Door",
-    "path": "folders/Objects/Door.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_entrance_door_3",
+  "name": "obj_who_are_fucking_you",
   "tags": [],
   "resourceType": "GMObject",
 }
