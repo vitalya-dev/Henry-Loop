@@ -1,5 +1,5 @@
 event_inherited();
-state = "CLOSE";
+state = "OPEN_1";
 open = function(by) {
   switch (state) {
     case "CLOSE":
@@ -14,7 +14,7 @@ open = function(by) {
       break;
     case "OPEN_1":
       _open_helper(by);
-      obj_gertrude.visible = true;
+      obj_gertrude.state = "TALK";
       obj_twardowski.playable = false;
       alarm[1] = fps / 4;
       alarm[2] = fps;

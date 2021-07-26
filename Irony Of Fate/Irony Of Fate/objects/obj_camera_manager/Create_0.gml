@@ -62,8 +62,8 @@ show_window = function(window) {
     current_camera = next_camera_copy();
   }
   ds_stack_push(cameras_stack, current_camera_copy());
-  next_camera.w = window.sprite_width - 10;
-  next_camera.h = window.sprite_height - 10;
+  next_camera.w = window.sprite_width;
+  next_camera.h = window.sprite_height;
   next_camera.x = window.x - next_camera.w / 2;
   next_camera.y = window.y - next_camera.h / 2;
   next_camera.state = "SHOW_WINDOW";
