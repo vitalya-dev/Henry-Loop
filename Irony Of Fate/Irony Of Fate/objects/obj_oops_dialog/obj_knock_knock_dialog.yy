@@ -33,7 +33,7 @@
     "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_who_are_fucking_you64",
+  "name": "obj_knock_knock_dialog",
   "tags": [],
   "resourceType": "GMObject",
 }

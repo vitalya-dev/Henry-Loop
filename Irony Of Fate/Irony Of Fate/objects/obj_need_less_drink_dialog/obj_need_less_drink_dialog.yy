@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_tutorial_2_window",
-    "path": "sprites/spr_tutorial_2_window/spr_tutorial_2_window.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_one_click_window",
-    "path": "objects/obj_one_click_window/obj_one_click_window.yy",
+    "name": "obj_dialogue",
+    "path": "objects/obj_dialogue/obj_dialogue.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Window",
-    "path": "folders/Objects/Window.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tutorial_2_window",
+  "name": "obj_need_less_drink_dialog",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tutorial_2_window",
-    "path": "sprites/spr_tutorial_2_window/spr_tutorial_2_window.yy",
+    "name": "spr_document_window",
+    "path": "sprites/spr_document_window/spr_document_window.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tutorial_2_window",
+  "name": "obj_document_window",
   "tags": [],
   "resourceType": "GMObject",
 }

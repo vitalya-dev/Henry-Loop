@@ -1,12 +1,12 @@
 event_inherited();
-state = "OPEN_1";
+state = "CLOSE";
 open = function(by) {
   switch (state) {
     case "CLOSE":
-      obj_twentyfour.numbers[0] = 4;
-      obj_twentyfour.numbers[1] = 7;
-      obj_twentyfour.numbers[2] = 2;
-      obj_twentyfour.numbers[3] = 8;
+      obj_twentyfour.numbers[0] = 8;
+      obj_twentyfour.numbers[1] = 8;
+      obj_twentyfour.numbers[2] = 1;
+      obj_twentyfour.numbers[3] = 5;
       obj_camera_manager.show_window(obj_twentyfour_window);
       obj_camera_manager.show_window(obj_tutorial_2_window);
       obj_camera_manager.show_dialog(obj_my_mind_is_going_dialog);
