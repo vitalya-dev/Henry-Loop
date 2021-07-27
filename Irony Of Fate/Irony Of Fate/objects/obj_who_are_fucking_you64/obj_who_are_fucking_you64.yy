@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_document_window",
-    "path": "sprites/spr_document_window/spr_document_window.yy",
+    "name": "spr_dialogue",
+    "path": "sprites/spr_dialogue/spr_dialogue.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_dialogue",
+    "path": "objects/obj_dialogue/obj_dialogue.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Window",
-    "path": "folders/Objects/Window.yy",
+    "name": "Dialogs",
+    "path": "folders/Objects/Dialogs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_document_window",
+  "name": "obj_who_are_fucking_you64",
   "tags": [],
   "resourceType": "GMObject",
 }

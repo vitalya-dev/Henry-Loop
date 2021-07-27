@@ -1,5 +1,6 @@
 if (dead) {
 	sprite_index = spr_twardowski_dead;
+  alarm[1] = -1;
 	return;
 }
 
@@ -19,6 +20,9 @@ var x_move = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var y_move = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 if (x_move != 0 || y_move != 0) {
+  if (alarm[1] == -1) {
+    alarm[1] = random_range(5, 15) * fps;
+  }
   sprite_index = spr_twardowski_walk_strip2;
   image_angle = point_direction(0, 0, x_move, y_move);
   if (place_empty(x, y, obj_solid)) {

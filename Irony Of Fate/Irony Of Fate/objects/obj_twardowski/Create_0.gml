@@ -1,3 +1,3 @@
-spd = 2;
+spd = 1;
 playable = true;
 dead = false;

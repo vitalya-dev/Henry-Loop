@@ -1,2 +1,2 @@
 follow_player();
-show_window(obj_document_window);
+show_window(obj_intro_window);
