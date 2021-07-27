@@ -3,7 +3,10 @@ if (obj_twentyfour.number == 0) {
   numbers[1] = 0;
   numbers[2] = 0;
   numbers[3] = 0;
+	audio_play_sound(Success, 10, false);
   obj_camera_manager.camera_pop();
+} else {
+	audio_play_sound(Negative, 10, false);
 }
 
 with (obj_twentyfour_op) {

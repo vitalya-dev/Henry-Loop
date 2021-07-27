@@ -147,6 +147,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":2,},
     {"id":{"name":"obj_bath_1","path":"objects/obj_bath_1/obj_bath_1.yy",},"order":6,},
     {"id":{"name":"spr_twentyfour_segment_4","path":"sprites/spr_twentyfour_segment_4/spr_twentyfour_segment_4.yy",},"order":8,},
+    {"id":{"name":"Beepbox","path":"sounds/Beepbox/Beepbox.yy",},"order":13,},
     {"id":{"name":"spr_vdoor","path":"sprites/spr_vdoor/spr_vdoor.yy",},"order":1,},
     {"id":{"name":"obj_who_are_fucking_you_dialog","path":"objects/obj_who_are_fucking_you_dialog/obj_who_are_fucking_you_dialog.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},

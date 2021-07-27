@@ -9,6 +9,7 @@ if (op != noone) {
 
 if (visible && image_index = 1 and op.state == "NORMAL") {
   execute(op.name);
+	audio_play_sound(Beepbox, 10, false);
   self.visible = false;
   op.visible = false;
 }
