@@ -7,6 +7,7 @@ if (obj_twentyfour.number == 0) {
   obj_camera_manager.camera_pop();
 } else {
 	audio_play_sound(Negative, 10, false);
+  shuffle_numbers();
 }
 
 with (obj_twentyfour_op) {

@@ -7,6 +7,7 @@ open = function(by) {
       obj_twentyfour.numbers[1] = 7;
       obj_twentyfour.numbers[2] = 2;
       obj_twentyfour.numbers[3] = 8;
+      obj_twentyfour.shuffle_numbers();
       obj_camera_manager.show_window(obj_twentyfour_window);
       obj_camera_manager.show_window(obj_tutorial_1_window);
       obj_camera_manager.show_dialog(obj_my_mind_is_flowing_dialog);

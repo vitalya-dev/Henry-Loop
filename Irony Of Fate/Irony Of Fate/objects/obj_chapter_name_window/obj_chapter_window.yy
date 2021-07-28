@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
+    "name": "spr_chapter_window",
+    "path": "sprites/spr_chapter_window/spr_chapter_window.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_window",
-    "path": "objects/obj_window/obj_window.yy",
+    "name": "obj_one_click_window",
+    "path": "objects/obj_one_click_window/obj_one_click_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twentyfour_window",
+  "name": "obj_chapter_window",
   "tags": [],
   "resourceType": "GMObject",
 }

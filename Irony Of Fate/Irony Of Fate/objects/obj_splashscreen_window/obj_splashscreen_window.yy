@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
+    "name": "spr_splashscreen_window",
+    "path": "sprites/spr_splashscreen_window/spr_splashscreen_window.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_window",
-    "path": "objects/obj_window/obj_window.yy",
+    "name": "obj_one_click_window",
+    "path": "objects/obj_one_click_window/obj_one_click_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +33,7 @@
     "path": "folders/Objects/Window.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twentyfour_window",
+  "name": "obj_splashscreen_window",
   "tags": [],
   "resourceType": "GMObject",
 }

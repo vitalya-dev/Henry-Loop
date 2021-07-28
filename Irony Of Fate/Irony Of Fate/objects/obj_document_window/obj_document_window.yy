@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_one_click_window",
-    "path": "objects/obj_one_click_window/obj_one_click_window.yy",
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
