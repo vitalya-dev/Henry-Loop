@@ -1,5 +1,4 @@
 event_inherited();
-WAIT = 180;
 alpha = 0;
 messages = ds_queue_create();
 ds_queue_enqueue(messages, "И копошаться по лицу земли");
@@ -9,5 +8,4 @@ ds_queue_enqueue(messages, "Времени");
 ds_queue_enqueue(messages, "И смысле");
 ds_queue_enqueue(messages, "КОНЕЦ");
 
-current_message = "";
-alarm[1] = 1;
+current_message = ds_queue_dequeue(messages); 
