@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gertrude",
-    "path": "sprites/spr_gertrude/spr_gertrude.yy",
+    "name": "spr_da_window",
+    "path": "sprites/spr_da_window/spr_da_window.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Actors",
-    "path": "folders/Objects/Actors.yy",
+    "name": "Demon Alcohol",
+    "path": "folders/Objects/Window/Demon Alcohol.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gertrude",
+  "name": "obj_da_twentyfour_window",
   "tags": [],
   "resourceType": "GMObject",
 }

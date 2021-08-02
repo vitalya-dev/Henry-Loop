@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_gertrude",
-    "path": "sprites/spr_gertrude/spr_gertrude.yy",
+    "name": "spr_hdoor_2",
+    "path": "sprites/spr_hdoor_2/spr_hdoor_2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_hdoor",
+    "path": "objects/obj_hdoor/obj_hdoor.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Actors",
-    "path": "folders/Objects/Actors.yy",
+    "name": "Door",
+    "path": "folders/Objects/Door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gertrude",
+  "name": "obj_entrance_door",
   "tags": [],
   "resourceType": "GMObject",
 }

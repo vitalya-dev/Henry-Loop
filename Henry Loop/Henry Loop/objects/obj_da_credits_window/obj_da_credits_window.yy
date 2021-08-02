@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_twardowski_idle",
-    "path": "sprites/spr_twardowski_idle/spr_twardowski_idle.yy",
+    "name": "spr_da_credits_window",
+    "path": "sprites/spr_da_credits_window/spr_da_credits_window.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,18 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Actors",
-    "path": "folders/Objects/Actors.yy",
+    "name": "Demon Alcohol",
+    "path": "folders/Objects/Window/Demon Alcohol.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twardowski",
+  "name": "obj_da_credits_window",
   "tags": [],
   "resourceType": "GMObject",
 }
