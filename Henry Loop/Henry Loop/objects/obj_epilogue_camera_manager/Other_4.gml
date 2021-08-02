@@ -1,0 +1,1 @@
+show_window(obj_afterwords_window);
