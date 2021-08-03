@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_da_window",
-    "path": "sprites/spr_da_window/spr_da_window.yy",
+    "name": "spr_pink_window",
+    "path": "sprites/spr_pink_window/spr_pink_window.yy",
   },
   "solid": false,
   "visible": true,

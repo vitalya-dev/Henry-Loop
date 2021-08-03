@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Tree",
-    "path": "folders/Objects/Tree.yy",
+    "path": "folders/Tree.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tree_1",

@@ -10,9 +10,9 @@ draw_text_ext(x - sprite_xoffset + 180, y, message, 80, sprite_width - 200);
 
 switch (avatar) {
   case "@":
-    draw_sprite(spr_avatar_twardowski, 0, x - sprite_xoffset + sprite_get_xoffset(spr_avatar_twardowski) + 10, y);
+    draw_sprite(obj_twardowski.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_twardowski.avatar) + 10, y);
     break;
   case "#":
-    draw_sprite(spr_avatar_gertrude, 0, x - sprite_xoffset + sprite_get_xoffset(spr_avatar_gertrude) + 10, y);
+    draw_sprite(obj_gertrude.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_twardowski.avatar) + 10, y);
     break;
 }
