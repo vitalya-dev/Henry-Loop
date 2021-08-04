@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_elock_button",
-    "path": "sprites/spr_elock_button/spr_elock_button.yy",
+    "name": "spr_hdoor_1",
+    "path": "sprites/spr_hdoor_1/spr_hdoor_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_btn",
-    "path": "objects/obj_btn/obj_btn.yy",
+    "name": "obj_hdoor",
+    "path": "objects/obj_hdoor/obj_hdoor.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,16 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "ELock",
-    "path": "folders/Objects/ELock.yy",
+    "name": "Door",
+    "path": "folders/Objects/Door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_elock_button",
+  "name": "obj_entrance_door_1",
   "tags": [],
   "resourceType": "GMObject",
 }
