@@ -1,1 +1,1 @@
-avatar = noone;
+avatar = spr_avatar_gertrude;
