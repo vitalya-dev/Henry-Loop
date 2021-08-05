@@ -1,0 +1,1 @@
+obj_camera_manager.show_dialog(obj_hunny_dialog);

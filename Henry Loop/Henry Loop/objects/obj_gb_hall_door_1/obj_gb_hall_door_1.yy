@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_hdoor_1",
-    "path": "sprites/spr_hdoor_1/spr_hdoor_1.yy",
+    "name": "spr_vdoor",
+    "path": "sprites/spr_vdoor/spr_vdoor.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_hdoor",
-    "path": "objects/obj_hdoor/obj_hdoor.yy",
+    "name": "obj_vdoor",
+    "path": "objects/obj_vdoor/obj_vdoor.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/Door/God Bedroom.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gb_entrance_door_1",
+  "name": "obj_gb_hall_door_1",
   "tags": [],
   "resourceType": "GMObject",
 }
