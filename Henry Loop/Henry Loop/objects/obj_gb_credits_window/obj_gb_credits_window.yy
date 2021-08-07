@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_da_credits_window",
-    "path": "sprites/spr_da_credits_window/spr_da_credits_window.yy",
+    "name": "spr_gb_credits_window",
+    "path": "sprites/spr_gb_credits_window/spr_gb_credits_window.yy",
   },
   "solid": false,
   "visible": true,

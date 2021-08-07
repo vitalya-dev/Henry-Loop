@@ -156,7 +156,6 @@
     {"id":{"name":"obj_gb_intro_window","path":"objects/obj_gb_intro_window/obj_gb_intro_window.yy",},"order":1,},
     {"id":{"name":"spr_oven_1","path":"sprites/spr_oven_1/spr_oven_1.yy",},"order":0,},
     {"id":{"name":"obj_elock_button_3","path":"objects/obj_elock_button_3/obj_elock_button_3.yy",},"order":4,},
-    {"id":{"name":"_111","path":"sprites/_111/_111.yy",},"order":5,},
     {"id":{"name":"obj_door_closed_dialog","path":"objects/obj_door_closed_dialog/obj_door_closed_dialog.yy",},"order":1,},
     {"id":{"name":"spr_hdoor_2","path":"sprites/spr_hdoor_2/spr_hdoor_2.yy",},"order":2,},
     {"id":{"name":"spr_elock_door_handle","path":"sprites/spr_elock_door_handle/spr_elock_door_handle.yy",},"order":2,},

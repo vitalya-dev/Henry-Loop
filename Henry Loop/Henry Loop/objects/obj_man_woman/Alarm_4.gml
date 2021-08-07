@@ -1,1 +1,1 @@
-//obj_camera_manager.show_credits();
+obj_camera_manager.show_window(obj_gb_credits_window);
