@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_twardowski_idle",
-    "path": "sprites/spr_twardowski_idle/spr_twardowski_idle.yy",
+    "name": "spr_card",
+    "path": "sprites/spr_card/spr_card.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_twardowski",
-    "path": "objects/obj_twardowski/obj_twardowski.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,16 +22,17 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Trouble With Ricardo",
-    "path": "folders/Objects/Actors/Trouble With Ricardo.yy",
+    "name": "Card",
+    "path": "folders/Objects/Card.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twr_twardowski",
+  "name": "obj_card",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_twardowski_idle",
-    "path": "sprites/spr_twardowski_idle/spr_twardowski_idle.yy",
+    "name": "spr_pink_window",
+    "path": "sprites/spr_pink_window/spr_pink_window.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_twardowski",
-    "path": "objects/obj_twardowski/obj_twardowski.yy",
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,18 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Trouble With Ricardo",
-    "path": "folders/Objects/Actors/Trouble With Ricardo.yy",
+    "path": "folders/Objects/Window/Trouble With Ricardo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_twr_twardowski",
+  "name": "obj_twr_card_window",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,0 +1,1 @@
+obj_card_small.image_xscale = 0;
