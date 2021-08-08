@@ -1,0 +1,1 @@
+avatar = spr_avatar_ricardo; 

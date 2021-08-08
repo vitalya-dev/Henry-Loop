@@ -2,6 +2,9 @@ switch (_state) {
   case "NORMAL":
     if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
       on_click();
+      if (play_sound) {
+        audio_play_sound(Key, 10, false);
+      }
       _state = "PRESSED";
     }
     image_xscale = 1; 

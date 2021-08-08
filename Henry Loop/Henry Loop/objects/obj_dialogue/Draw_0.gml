@@ -6,13 +6,16 @@ draw_set_font(fn_dialog);
 
 var message = string_copy(current_message, 2, string_length(current_message) - 1);
 var avatar = string_char_at(current_message, 1);
-draw_text_ext(x - sprite_xoffset + 180, y, message, 80, sprite_width - 200);
+draw_text_ext(x - sprite_xoffset + 180, y, message, 45, sprite_width - 200);
 
 switch (avatar) {
   case "@":
     draw_sprite(obj_twardowski.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_twardowski.avatar) + 10, y);
     break;
   case "#":
-    draw_sprite(obj_gertrude.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_twardowski.avatar) + 10, y);
+    draw_sprite(obj_gertrude.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_gertrude.avatar) + 10, y);
+    break;
+  case "$":
+    draw_sprite(obj_ricardo.avatar, 0, x - sprite_xoffset + sprite_get_xoffset(obj_ricardo.avatar) + 10, y);
     break;
 }

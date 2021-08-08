@@ -17,6 +17,7 @@ switch (state) {
       mouse_pressed_row = mouse_over_row;
       mouse_pressed_col = mouse_over_col;
       state = "PRESSED";
+      audio_play_sound(Tumbler, 10, false);
     }
     if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_right)) {
       if (card[mouse_over_row][mouse_over_col] == "_")

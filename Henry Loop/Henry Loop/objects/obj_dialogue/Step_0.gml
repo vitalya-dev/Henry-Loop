@@ -9,5 +9,6 @@ if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_l
   } else {
     current_message = ds_queue_dequeue(messages);
   }
+  audio_play_sound(Short_Whoosh, 10, false);
 }
 

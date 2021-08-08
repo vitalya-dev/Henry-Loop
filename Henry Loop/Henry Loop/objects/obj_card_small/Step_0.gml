@@ -6,5 +6,6 @@ if (position_meeting(mouse_x, mouse_y, self)) {
 
 
 if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
-  obj_camera_manager.show_window(obj_twr_card_window);     
+  obj_camera_manager.show_window(obj_twr_card_window);
+  audio_play_sound(Short_Whoosh, 10, false);
 }
