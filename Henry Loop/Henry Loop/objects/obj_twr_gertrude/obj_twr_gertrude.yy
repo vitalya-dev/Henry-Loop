@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gertrude_with_gun",
-    "path": "sprites/spr_gertrude_with_gun/spr_gertrude_with_gun.yy",
+    "name": "spr_gertrude",
+    "path": "sprites/spr_gertrude/spr_gertrude.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Demon Alcohol",
-    "path": "folders/Objects/Actors/Demon Alcohol.yy",
+    "name": "Trouble With Ricardo",
+    "path": "folders/Objects/Actors/Trouble With Ricardo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_da_gertrude",
+  "name": "obj_twr_gertrude",
   "tags": [],
   "resourceType": "GMObject",
 }

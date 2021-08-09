@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_gertrude_with_gun",
-    "path": "sprites/spr_gertrude_with_gun/spr_gertrude_with_gun.yy",
+    "name": "spr_gertrude",
+    "path": "sprites/spr_gertrude/spr_gertrude.yy",
   },
   "solid": false,
   "visible": true,
