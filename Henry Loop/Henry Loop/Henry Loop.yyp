@@ -71,6 +71,7 @@
     {"id":{"name":"spr_avatar_gertrude","path":"sprites/spr_avatar_gertrude/spr_avatar_gertrude.yy",},"order":2,},
     {"id":{"name":"spr_washstand_1","path":"sprites/spr_washstand_1/spr_washstand_1.yy",},"order":7,},
     {"id":{"name":"spr_da_chapter_name_window","path":"sprites/spr_da_chapter_name_window/spr_da_chapter_name_window.yy",},"order":0,},
+    {"id":{"name":"Count","path":"sounds/Count/Count.yy",},"order":19,},
     {"id":{"name":"spr_ricardo_front","path":"sprites/spr_ricardo_front/spr_ricardo_front.yy",},"order":1,},
     {"id":{"name":"spr_elock_tv_small","path":"sprites/spr_elock_tv_small/spr_elock_tv_small.yy",},"order":4,},
     {"id":{"name":"spr_cardrecord_end","path":"sprites/spr_cardrecord_end/spr_cardrecord_end.yy",},"order":2,},
