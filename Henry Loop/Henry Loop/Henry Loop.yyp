@@ -233,6 +233,7 @@
     {"id":{"name":"fn_lock","path":"fonts/fn_lock/fn_lock.yy",},"order":8,},
     {"id":{"name":"spr_twentyfour_segment_4","path":"sprites/spr_twentyfour_segment_4/spr_twentyfour_segment_4.yy",},"order":8,},
     {"id":{"name":"Beepbox","path":"sounds/Beepbox/Beepbox.yy",},"order":13,},
+    {"id":{"name":"obj_knock_knock_dialog","path":"objects/obj_knock_knock_dialog/obj_knock_knock_dialog.yy",},"order":1,},
     {"id":{"name":"spr_vdoor","path":"sprites/spr_vdoor/spr_vdoor.yy",},"order":1,},
     {"id":{"name":"obj_da_who_are_fucking_you_dialog","path":"objects/obj_da_who_are_fucking_you_dialog/obj_da_who_are_fucking_you_dialog.yy",},"order":4,},
     {"id":{"name":"Blip","path":"sounds/Blip/Blip.yy",},"order":17,},
