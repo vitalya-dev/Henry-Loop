@@ -17,7 +17,7 @@ switch (state) {
       mouse_pressed_row = mouse_over_row;
       mouse_pressed_col = mouse_over_col;
       state = "PRESSED";
-      audio_play_sound(Tumbler, 10, false);
+      audio_play_sound(Blip, 10, false);
     }
     if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_right)) {
       if (card[mouse_over_row][mouse_over_col] == "_")
@@ -28,6 +28,7 @@ switch (state) {
             card[mouse_over_row][i + j] = "_";
           }
           card[mouse_over_row][i] = "_";
+          audio_play_sound(Pop, 10, false);
           break;
         }
       }
@@ -47,6 +48,9 @@ switch (state) {
       mouse_pressed_row = -1;
       mouse_pressed_col = -1;
       state = "IDLE";
+      if (!audio_is_playing(Blip)) {
+        audio_play_sound(Pop, 10, false);
+      }
     }
     break;
 }

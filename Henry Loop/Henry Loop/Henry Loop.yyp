@@ -139,6 +139,7 @@
     {"id":{"name":"spr_da_intro_window","path":"sprites/spr_da_intro_window/spr_da_intro_window.yy",},"order":3,},
     {"id":{"name":"Footsteps","path":"sounds/Footsteps/Footsteps.yy",},"order":3,},
     {"id":{"name":"spr_bath_1","path":"sprites/spr_bath_1/spr_bath_1.yy",},"order":6,},
+    {"id":{"name":"Pop","path":"sounds/Pop/Pop.yy",},"order":18,},
     {"id":{"name":"obj_twentyfour_op","path":"objects/obj_twentyfour_op/obj_twentyfour_op.yy",},"order":2,},
     {"id":{"name":"spr_table_2","path":"sprites/spr_table_2/spr_table_2.yy",},"order":14,},
     {"id":{"name":"spr_trashcan","path":"sprites/spr_trashcan/spr_trashcan.yy",},"order":18,},
@@ -233,6 +234,7 @@
     {"id":{"name":"Beepbox","path":"sounds/Beepbox/Beepbox.yy",},"order":13,},
     {"id":{"name":"spr_vdoor","path":"sprites/spr_vdoor/spr_vdoor.yy",},"order":1,},
     {"id":{"name":"obj_da_who_are_fucking_you_dialog","path":"objects/obj_da_who_are_fucking_you_dialog/obj_da_who_are_fucking_you_dialog.yy",},"order":4,},
+    {"id":{"name":"Blip","path":"sounds/Blip/Blip.yy",},"order":17,},
     {"id":{"name":"Room_da","path":"rooms/Room_da/Room_da.yy",},"order":0,},
   ],
   "Options": [
