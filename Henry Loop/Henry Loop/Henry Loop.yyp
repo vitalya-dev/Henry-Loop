@@ -223,6 +223,7 @@
     {"id":{"name":"spr_elock_button","path":"sprites/spr_elock_button/spr_elock_button.yy",},"order":1,},
     {"id":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"order":2,},
     {"id":{"name":"obj_da_chapter_name_window","path":"objects/obj_da_chapter_name_window/obj_da_chapter_name_window.yy",},"order":0,},
+    {"id":{"name":"obj_gertrude_first_meet_dialog","path":"objects/obj_gertrude_first_meet_dialog/obj_gertrude_first_meet_dialog.yy",},"order":2,},
     {"id":{"name":"spr_chair_1","path":"sprites/spr_chair_1/spr_chair_1.yy",},"order":5,},
     {"id":{"name":"obj_elock_button_1","path":"objects/obj_elock_button_1/obj_elock_button_1.yy",},"order":2,},
     {"id":{"name":"spr_hdoor_1","path":"sprites/spr_hdoor_1/spr_hdoor_1.yy",},"order":0,},

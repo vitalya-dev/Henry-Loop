@@ -49,6 +49,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_door_closed_dialog","path":"objects/obj_door_closed_dialog/obj_door_closed_dialog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2816.0,"y":608.0,"resourceVersion":"1.0","name":"inst_6430CC26","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_ricardo_fixing_dialog","path":"objects/obj_ricardo_fixing_dialog/obj_ricardo_fixing_dialog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2816.0,"y":233.0,"resourceVersion":"1.0","name":"inst_395B4214","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_knock_knock_dialog","path":"objects/obj_knock_knock_dialog/obj_knock_knock_dialog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3502.0,"y":233.0,"resourceVersion":"1.0","name":"inst_79DB1867","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_gertrude_first_meet_dialog","path":"objects/obj_gertrude_first_meet_dialog/obj_gertrude_first_meet_dialog.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3488.0,"y":608.0,"resourceVersion":"1.0","name":"inst_7A95A225","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Dialogs","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spr_walls_room","path":"sprites/spr_walls_room/spr_walls_room.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1312.0,"y":792.0,"resourceVersion":"1.0","name":"graphic_F429B16","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -198,6 +199,7 @@
     {"name":"inst_BBB09","path":"rooms/Room_twr/Room_twr.yy",},
     {"name":"inst_1E13BA63","path":"rooms/Room_twr/Room_twr.yy",},
     {"name":"inst_79DB1867","path":"rooms/Room_twr/Room_twr.yy",},
+    {"name":"inst_7A95A225","path":"rooms/Room_twr/Room_twr.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
