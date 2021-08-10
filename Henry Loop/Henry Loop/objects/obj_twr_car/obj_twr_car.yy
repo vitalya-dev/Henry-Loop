@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_car",
-    "path": "sprites/spr_car/spr_car.yy",
+    "name": "spr_twr_car",
+    "path": "sprites/spr_twr_car/spr_twr_car.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+    "name": "obj_car",
+    "path": "objects/obj_car/obj_car.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "Trouble With Ricardo",
+    "path": "folders/Objects/Cars/Trouble With Ricardo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_car",
+  "name": "obj_twr_car",
   "tags": [],
   "resourceType": "GMObject",
 }

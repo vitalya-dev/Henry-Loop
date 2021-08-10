@@ -12,3 +12,7 @@ if (place_meeting(x, y, obj_door)) {
   audio_play_sound(Door_open, 10, false);
 }
 
+if (place_meeting(x, y, obj_car)) {
+  obj_car.interact();
+  audio_play_sound(Short_Whoosh, 10, false);
+}
