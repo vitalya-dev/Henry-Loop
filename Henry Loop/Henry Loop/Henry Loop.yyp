@@ -169,6 +169,7 @@
     {"id":{"name":"obj_one_click_window","path":"objects/obj_one_click_window/obj_one_click_window.yy",},"order":0,},
     {"id":{"name":"spr_letter_small","path":"sprites/spr_letter_small/spr_letter_small.yy",},"order":0,},
     {"id":{"name":"obj_gb_chapter_name_window","path":"objects/obj_gb_chapter_name_window/obj_gb_chapter_name_window.yy",},"order":0,},
+    {"id":{"name":"obj_before_kill_dialog","path":"objects/obj_before_kill_dialog/obj_before_kill_dialog.yy",},"order":6,},
     {"id":{"name":"spr_splashscreen_window","path":"sprites/spr_splashscreen_window/spr_splashscreen_window.yy",},"order":1,},
     {"id":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"order":1,},
     {"id":{"name":"fn_tv","path":"fonts/fn_tv/fn_tv.yy",},"order":9,},
