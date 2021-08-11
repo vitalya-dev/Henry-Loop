@@ -4,6 +4,15 @@
 // Inherit the parent event
 event_inherited();
 
+state = "EMPTY";
+
 interact = function() {
-  obj_camera_manager.show_dialog(obj_to_soon_dialog);
+  switch (state) {
+    case "EMPTY":
+      obj_camera_manager.show_dialog(obj_to_soon_dialog);
+      break;
+    case "GERTRUDE":
+      break;
+  }
 }
+

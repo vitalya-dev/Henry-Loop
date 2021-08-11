@@ -1,0 +1,1 @@
+obj_camera_manager.show_dialog(obj_whereis_gertrude_1_dialog);
