@@ -6,6 +6,7 @@ ds_queue_enqueue(messages, "Букашки прозванные людьми");
 ds_queue_enqueue(messages, "Затерянные в пространстве");
 ds_queue_enqueue(messages, "Времени");
 ds_queue_enqueue(messages, "И смысле");
-ds_queue_enqueue(messages, "КОНЕЦ");
+ds_queue_enqueue(messages, "");
+
 
 current_message = ds_queue_dequeue(messages); 

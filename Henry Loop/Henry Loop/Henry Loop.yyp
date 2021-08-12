@@ -113,6 +113,7 @@
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},"order":6,},
     {"id":{"name":"obj_camera_manager","path":"objects/obj_camera_manager/obj_camera_manager.yy",},"order":0,},
     {"id":{"name":"obj_washstand_1","path":"objects/obj_washstand_1/obj_washstand_1.yy",},"order":8,},
+    {"id":{"name":"_3333","path":"sprites/_3333/_3333.yy",},"order":15,},
     {"id":{"name":"fn_ricardo_head","path":"fonts/fn_ricardo_head/fn_ricardo_head.yy",},"order":10,},
     {"id":{"name":"spr_floors_room_1","path":"sprites/spr_floors_room_1/spr_floors_room_1.yy",},"order":0,},
     {"id":{"name":"obj_vdoor","path":"objects/obj_vdoor/obj_vdoor.yy",},"order":1,},
