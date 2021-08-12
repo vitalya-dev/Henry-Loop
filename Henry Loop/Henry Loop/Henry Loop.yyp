@@ -41,6 +41,7 @@
     {"id":{"name":"spr_floors_entrance","path":"sprites/spr_floors_entrance/spr_floors_entrance.yy",},"order":1,},
     {"id":{"name":"obj_twr_entrance_door","path":"objects/obj_twr_entrance_door/obj_twr_entrance_door.yy",},"order":0,},
     {"id":{"name":"obj_da_camera_manager","path":"objects/obj_da_camera_manager/obj_da_camera_manager.yy",},"order":1,},
+    {"id":{"name":"Home","path":"sounds/Home/Home.yy",},"order":20,},
     {"id":{"name":"spr_avatar_twardowski","path":"sprites/spr_avatar_twardowski/spr_avatar_twardowski.yy",},"order":3,},
     {"id":{"name":"obj_ricardo_front","path":"objects/obj_ricardo_front/obj_ricardo_front.yy",},"order":0,},
     {"id":{"name":"Short_Whoosh","path":"sounds/Short_Whoosh/Short_Whoosh.yy",},"order":11,},
@@ -266,9 +267,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room_twr","path":"rooms/Room_twr/Room_twr.yy",},},
-    {"roomId":{"name":"Room_gb","path":"rooms/Room_gb/Room_gb.yy",},},
     {"roomId":{"name":"Room_da","path":"rooms/Room_da/Room_da.yy",},},
+    {"roomId":{"name":"Room_gb","path":"rooms/Room_gb/Room_gb.yy",},},
+    {"roomId":{"name":"Room_twr","path":"rooms/Room_twr/Room_twr.yy",},},
     {"roomId":{"name":"Room_epilogue","path":"rooms/Room_epilogue/Room_epilogue.yy",},},
   ],
   "Folders": [

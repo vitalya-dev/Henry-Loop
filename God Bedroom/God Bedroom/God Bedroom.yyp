@@ -1,7 +1,6 @@
 {
   "resources": [
     {"id":{"name":"spr_elock_door_handle","path":"sprites/spr_elock_door_handle/spr_elock_door_handle.yy",},"order":5,},
-    {"id":{"name":"_221221","path":"sprites/_221221/_221221.yy",},"order":0,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":7,},
     {"id":{"name":"obj_trash","path":"objects/obj_trash/obj_trash.yy",},"order":17,},
     {"id":{"name":"obj_book_3","path":"objects/obj_book_3/obj_book_3.yy",},"order":1,},
@@ -23,6 +22,7 @@
     {"id":{"name":"obj_btn","path":"objects/obj_btn/obj_btn.yy",},"order":5,},
     {"id":{"name":"spr_toilet_1","path":"sprites/spr_toilet_1/spr_toilet_1.yy",},"order":8,},
     {"id":{"name":"obj_hall_door","path":"objects/obj_hall_door/obj_hall_door.yy",},"order":7,},
+    {"id":{"name":"Home","path":"sounds/Home/Home.yy",},"order":15,},
     {"id":{"name":"Door_open","path":"sounds/Door_open/Door_open.yy",},"order":4,},
     {"id":{"name":"obj_door_open_dialog","path":"objects/obj_door_open_dialog/obj_door_open_dialog.yy",},"order":2,},
     {"id":{"name":"obj_tree_1","path":"objects/obj_tree_1/obj_tree_1.yy",},"order":0,},

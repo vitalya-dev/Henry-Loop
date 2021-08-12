@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.4,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Anxiety.mp3",
-  "duration": 8.338061,
+  "soundFile": "Home.mp3",
+  "duration": 42.8196945,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "God Bedroom",
+    "path": "God Bedroom.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Anxiety",
+  "name": "Home",
   "tags": [],
   "resourceType": "GMSound",
 }
