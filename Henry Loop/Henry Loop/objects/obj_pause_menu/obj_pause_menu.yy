@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_menu",
-    "path": "sprites/spr_menu/spr_menu.yy",
+    "name": "spr_pause_menu",
+    "path": "sprites/spr_pause_menu/spr_pause_menu.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_window",
+    "path": "objects/obj_window/obj_window.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,16 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":27,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Pause Menu",
+    "path": "folders/Objects/Pause Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_menu",
+  "name": "obj_pause_menu",
   "tags": [],
   "resourceType": "GMObject",
 }

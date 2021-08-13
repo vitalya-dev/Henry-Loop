@@ -95,19 +95,5 @@ show_dialog = function(dialog) {
   alarm[1] = 1;
 }
 
-show_menu = function() {
-  if (current_camera.state == "TRANSITION") {
-    current_camera.state = next_camera_copy();
-  }
-  ds_stack_push(cameras_stack, current_camera_copy());
-  next_camera.w = obj_menu.sprite_width - 10;
-  next_camera.h = obj_menu.sprite_height - 10;
-  next_camera.x = obj_menu.x - next_camera.w / 2;
-  next_camera.y = obj_menu.y - next_camera.h / 2;
-  next_camera.state = "SHOW_MENU";
-  current_camera.state = "TRANSITION";
-  alarm[1] = 1;
-}
-
 
 
