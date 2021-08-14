@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Window",
+    "path": "folders/Sprites/Window.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_gametitle_window",

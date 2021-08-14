@@ -1,8 +1,13 @@
-if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left) and not ds_queue_empty(messages)) {
-  current_message = ds_queue_dequeue(messages);
-  alpha = 0;
+switch (state) {
+  case 0:
+    if (position_meeting(mouse_x, mouse_y, self) and mouse_check_button_pressed(mb_left)) {
+      audio_play_sound(Shot_blow_destruction, 10, false);
+      state = 1;
+    }
+    break;
+  case 1:
+    if (not audio_is_playing(Shot_blow_destruction)) {
+      game_end()
+    }
+    break;
 }
-
-if (alpha < 1) { 
-  alpha += 0.01;
-} 

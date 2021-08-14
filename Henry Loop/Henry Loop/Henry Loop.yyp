@@ -138,7 +138,7 @@
     {"id":{"name":"obj_twentyfour_op_div","path":"objects/obj_twentyfour_op_div/obj_twentyfour_op_div.yy",},"order":4,},
     {"id":{"name":"spr_twr_car","path":"sprites/spr_twr_car/spr_twr_car.yy",},"order":0,},
     {"id":{"name":"obj_whereis_gertrude_1_dialog","path":"objects/obj_whereis_gertrude_1_dialog/obj_whereis_gertrude_1_dialog.yy",},"order":4,},
-    {"id":{"name":"spr_gametitle_window","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"order":25,},
+    {"id":{"name":"spr_gametitle_window","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"order":6,},
     {"id":{"name":"obj_twentyfour","path":"objects/obj_twentyfour/obj_twentyfour.yy",},"order":0,},
     {"id":{"name":"obj_twr_chapter_name_window","path":"objects/obj_twr_chapter_name_window/obj_twr_chapter_name_window.yy",},"order":1,},
     {"id":{"name":"spr_elock_tv","path":"sprites/spr_elock_tv/spr_elock_tv.yy",},"order":3,},
@@ -277,11 +277,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_epilogue","path":"rooms/Room_epilogue/Room_epilogue.yy",},},
+    {"roomId":{"name":"Room_da","path":"rooms/Room_da/Room_da.yy",},},
     {"roomId":{"name":"Room_prolog","path":"rooms/Room_prolog/Room_prolog.yy",},},
     {"roomId":{"name":"Room_twr","path":"rooms/Room_twr/Room_twr.yy",},},
-    {"roomId":{"name":"Room_da","path":"rooms/Room_da/Room_da.yy",},},
     {"roomId":{"name":"Room_gb","path":"rooms/Room_gb/Room_gb.yy",},},
-    {"roomId":{"name":"Room_epilogue","path":"rooms/Room_epilogue/Room_epilogue.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
