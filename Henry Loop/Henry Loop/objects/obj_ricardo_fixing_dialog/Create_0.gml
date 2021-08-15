@@ -8,5 +8,5 @@ ds_queue_enqueue(messages, "@Пора валить");
 finish = function() {
   obj_gertrude.x = 0;
   obj_gertrude.y = 0;
-  obj_twardowski.alarm[1] = 7 * fps;
+  obj_twardowski.alarm[1] = 4 * fps;
 }
