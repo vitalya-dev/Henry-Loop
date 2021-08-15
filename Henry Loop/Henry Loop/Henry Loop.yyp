@@ -220,6 +220,7 @@
     {"id":{"name":"spr_twentyfour_op_div","path":"sprites/spr_twentyfour_op_div/spr_twentyfour_op_div.yy",},"order":2,},
     {"id":{"name":"spr_twentyfour_segment_1","path":"sprites/spr_twentyfour_segment_1/spr_twentyfour_segment_1.yy",},"order":5,},
     {"id":{"name":"spr_mirror_1","path":"sprites/spr_mirror_1/spr_mirror_1.yy",},"order":13,},
+    {"id":{"name":"_222","path":"sprites/_222/_222.yy",},"order":0,},
     {"id":{"name":"Frank_Sinatra_Thats_Life","path":"sounds/Frank_Sinatra_Thats_Life/Frank_Sinatra_Thats_Life.yy",},"order":0,},
     {"id":{"name":"obj_mirror","path":"objects/obj_mirror/obj_mirror.yy",},"order":10,},
     {"id":{"name":"obj_door_front","path":"objects/obj_door_front/obj_door_front.yy",},"order":8,},
@@ -277,9 +278,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room_prolog","path":"rooms/Room_prolog/Room_prolog.yy",},},
     {"roomId":{"name":"Room_epilogue","path":"rooms/Room_epilogue/Room_epilogue.yy",},},
     {"roomId":{"name":"Room_da","path":"rooms/Room_da/Room_da.yy",},},
-    {"roomId":{"name":"Room_prolog","path":"rooms/Room_prolog/Room_prolog.yy",},},
     {"roomId":{"name":"Room_twr","path":"rooms/Room_twr/Room_twr.yy",},},
     {"roomId":{"name":"Room_gb","path":"rooms/Room_gb/Room_gb.yy",},},
   ],

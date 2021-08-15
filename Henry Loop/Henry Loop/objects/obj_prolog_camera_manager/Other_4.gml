@@ -1,1 +1,2 @@
 show_window(obj_gametitle_window);
+show_window(obj_splashscreen_window);
