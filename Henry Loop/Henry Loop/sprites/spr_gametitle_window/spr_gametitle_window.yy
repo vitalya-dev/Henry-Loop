@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f6d0ccfd-97a8-4c8c-ae93-eaf9e4e57093","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f6d0ccfd-97a8-4c8c-ae93-eaf9e4e57093","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":{"name":"caa6b3b5-07b3-4338-b5ac-2b54a986f583","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_gametitle_window","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"f6d0ccfd-97a8-4c8c-ae93-eaf9e4e57093","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7e4d225a-0806-478b-b814-0fa8eb657096","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7e4d225a-0806-478b-b814-0fa8eb657096","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":{"name":"caa6b3b5-07b3-4338-b5ac-2b54a986f583","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_gametitle_window","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"7e4d225a-0806-478b-b814-0fa8eb657096","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ea3ea007-f372-47ba-ac0d-087dbb91166a","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ea3ea007-f372-47ba-ac0d-087dbb91166a","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"LayerId":{"name":"caa6b3b5-07b3-4338-b5ac-2b54a986f583","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_gametitle_window","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","name":"ea3ea007-f372-47ba-ac0d-087dbb91166a","tags":[],"resourceType":"GMSpriteFrame",},
@@ -44,7 +44,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ec442b3d-c557-49ff-ac8e-38039a2ee892","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f6d0ccfd-97a8-4c8c-ae93-eaf9e4e57093","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"27d69e2e-4a70-42f6-a6d7-4b190e63b6f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7e4d225a-0806-478b-b814-0fa8eb657096","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"b5589ac5-60a0-4727-8cca-be2535aa3e40","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ea3ea007-f372-47ba-ac0d-087dbb91166a","path":"sprites/spr_gametitle_window/spr_gametitle_window.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],

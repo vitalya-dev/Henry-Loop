@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_car",
-    "path": "sprites/spr_car/spr_car.yy",
+    "name": "spr_ricardo",
+    "path": "sprites/spr_ricardo/spr_ricardo.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_interactable",
-    "path": "objects/obj_interactable/obj_interactable.yy",
+    "name": "obj_ricardo",
+    "path": "objects/obj_ricardo/obj_ricardo.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,16 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "Trouble With Ricardo",
+    "path": "folders/Objects/Actors/Trouble With Ricardo.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_car",
+  "name": "obj_twr_ricardo",
   "tags": [],
   "resourceType": "GMObject",
 }

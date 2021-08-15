@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+sound = Short_Whoosh;
+
 on_show = function() {
-  audio_play_sound(Anxiety, 10, false);
+  audio_play_sound(Breath, 10, true);
 }

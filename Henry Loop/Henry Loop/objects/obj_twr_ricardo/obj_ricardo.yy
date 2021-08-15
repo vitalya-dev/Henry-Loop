@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_car",
-    "path": "sprites/spr_car/spr_car.yy",
+    "name": "spr_ricardo",
+    "path": "sprites/spr_ricardo/spr_ricardo.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,16 +24,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cars",
-    "path": "folders/Objects/Cars.yy",
+    "name": "Actors",
+    "path": "folders/Objects/Actors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_car",
+  "name": "obj_ricardo",
   "tags": [],
   "resourceType": "GMObject",
 }

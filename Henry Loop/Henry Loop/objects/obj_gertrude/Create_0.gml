@@ -1,3 +1,6 @@
+event_inherited();
 avatar = spr_avatar_gertrude;
-talk = function() {
+
+interact = function(by) {
+  audio_play_sound(Short_Whoosh, 10, false);
 }
