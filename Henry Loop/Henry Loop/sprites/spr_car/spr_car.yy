@@ -24,6 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+    {"compositeImage":{"FrameId":{"name":"0de02906-3dae-445c-8954-898d9b2f02af","path":"sprites/spr_car/spr_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0de02906-3dae-445c-8954-898d9b2f02af","path":"sprites/spr_car/spr_car.yy",},"LayerId":{"name":"905cf20c-57ce-41b1-b3b3-67304558451f","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","name":"0de02906-3dae-445c-8954-898d9b2f02af","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"51b64196-c185-4884-8420-af8e1d879330","path":"sprites/spr_car/spr_car.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"51b64196-c185-4884-8420-af8e1d879330","path":"sprites/spr_car/spr_car.yy",},"LayerId":{"name":"905cf20c-57ce-41b1-b3b3-67304558451f","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","name":"51b64196-c185-4884-8420-af8e1d879330","tags":[],"resourceType":"GMSpriteFrame",},
@@ -32,16 +35,17 @@
     "spriteId": {"name":"spr_car","path":"sprites/spr_car/spr_car.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 2.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f1c95add-8316-416a-a157-2003894619be","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51b64196-c185-4884-8420-af8e1d879330","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"31023fc5-d6ce-4a1c-b737-4bc67da181df","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0de02906-3dae-445c-8954-898d9b2f02af","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f1c95add-8316-416a-a157-2003894619be","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"51b64196-c185-4884-8420-af8e1d879330","path":"sprites/spr_car/spr_car.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
