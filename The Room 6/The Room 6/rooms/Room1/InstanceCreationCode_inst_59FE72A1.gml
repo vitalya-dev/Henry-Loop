@@ -1,1 +1,0 @@
-related_window = inst_6FB06C2F;

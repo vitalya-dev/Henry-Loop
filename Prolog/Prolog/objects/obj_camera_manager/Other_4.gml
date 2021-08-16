@@ -1,1 +1,0 @@
-show_window(obj_gametitle_window);

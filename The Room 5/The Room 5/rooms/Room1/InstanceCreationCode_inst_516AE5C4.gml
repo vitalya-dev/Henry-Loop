@@ -1,1 +1,0 @@
-window = inst_5A988D94;

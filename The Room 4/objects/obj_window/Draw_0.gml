@@ -1,2 +1,0 @@
-draw_self();
-draw_sprite_ext(close_btn.sprite_index, close_btn.image_index, close_btn.x, close_btn.y, close_btn.image_xscale, close_btn.image_yscale, close_btn.image_angle, close_btn.image_blend, close_btn.image_alpha);

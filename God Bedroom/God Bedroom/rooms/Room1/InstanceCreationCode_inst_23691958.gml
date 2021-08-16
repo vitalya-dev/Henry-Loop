@@ -1,1 +1,0 @@
-name = "entrance_door_3";

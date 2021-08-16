@@ -1,1 +1,0 @@
-obj_camera_manager.show_dialog(obj_who_are_fucking_you_dialog);

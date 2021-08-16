@@ -1,1 +1,0 @@
-state = obj_tv_tumbler.state;  
